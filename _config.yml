@@ -16,7 +16,12 @@ footer_text: >
 keywords: jesse-wei, unc, computer-science, mathematics, math, cs, blog, portfolio, unc, university-of-north-carolina-at-chapel-hill, chapel-hill
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.ico  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon16: favicon-16x16.png
+icon32: favicon-32x32.png
+icon_apple: apple-touch-icon.png
+icon_safari_pinned: safari-pinned-tab.svg
+icon_android: android-chrome-192x192.png
 
 url: https://jesse-wei.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -45,7 +50,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout

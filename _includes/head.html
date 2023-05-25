@@ -23,10 +23,27 @@
 
     <!-- Styles -->
     {% if site.icon.size <= 4 %}
-    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
     {% elsif site.icon != blank %}
-    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
+    <link rel="icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
     {% endif %}
+
+    {% if site.icon16 != blank %}
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.icon16 | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+
+    {% if site.icon32 != blank %}
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.icon32 | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+
+    {% if site.icon_apple != blank %}
+    <link rel="apple-touch-icon" href="{{ site.icon_apple | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+
+    {% if site.icon_safari_pinned != blank %}
+    <link rel="mask-icon" href="{{ site.icon_safari_pinned | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
