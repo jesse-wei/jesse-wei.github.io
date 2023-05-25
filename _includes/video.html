@@ -24,8 +24,9 @@
 
   {% else %}
 
+  <!-- Added center option -->
   <iframe
-    src="{{ include.path }}"
+    src="{{ include.path }}"{% if include.center == 1 %} style="display: block; margin: 0 auto;" {% endif %}
     {% if include.class %}class="{{ include.class }}"{% endif %}
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

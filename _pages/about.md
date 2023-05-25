@@ -1,26 +1,26 @@
 ---
 layout: about
-title: about
+# No title so that it doesn't show up in header
+title: 
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Computer Science MS student at <a href="https://unc.edu">UNC</a> • Technical Summer Intern @ <a href="https://www.teledyne-si.com">Teledyne SI</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
+  # address: >
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+---
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm a first-year Master's student in the [Department of Computer Science](https://cs.unc.edu) at [UNC](https://unc.edu).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In 2023, I graduated early and with highest distinction from UNC with a B.S. in Mathematics and a B.S. in Computer Science. This summer, I am a Technical Summer Intern at [Teledyne Scientific & Imaging](https://www.teledyne-si.com).
+
+I was a head UTA for COMP 311 (Computer Organization). I was also a UTA for [COMP 210](https://www.cs.unc.edu/~kakiryan/teaching/summer-210/team/team.html) (Data Structures) and [COMP 110](https://22s.comp110.com/resources/team.html) (Introduction to Programming). I won the [Diane Pozefsky Learning Assistant Award](https://cs.unc.edu/about/awards/department-awards/pozefsky-la-award/) in Spring 2023.
