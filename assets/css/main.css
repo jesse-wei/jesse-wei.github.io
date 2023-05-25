@@ -913,6 +913,22 @@ nav[data-toggle=toc] .nav-link.active:hover {
   color: var(--global-danger-block-title);
 }
 
+/**
+ * Teaching
+ * Source: https://maruan.alshedivat.com/assets/css/main.css
+ */
+/* Modified --global-bg-color to --global-card-bg-color */
+.card .list-group-item {
+  background-color: var(--global-card-bg-color);
+  border-color: var(--global-divider-color);
+}
+
+.card .badge {
+  background-color: var(--global-theme-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 /*******************************************************************************
  * Style overrides for distill blog posts.
  ******************************************************************************/

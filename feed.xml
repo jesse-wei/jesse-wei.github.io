@@ -1,663 +1,678 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jesse-wei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jesse-wei.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-25T15:02:09+00:00</updated><id>https://jesse-wei.github.io/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. Welcome to my website!
-</subtitle><entry><title type="html">a post with custom blockquotes</title><link href="https://jesse-wei.github.io/blog/2023/custom-blockquotes/" rel="alternate" type="text/html" title="a post with custom blockquotes" /><published>2023-05-12T19:53:00+00:00</published><updated>2023-05-12T19:53:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/custom-blockquotes</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/custom-blockquotes/"><![CDATA[<p>This post shows how to add custom styles for blockquotes. Based on <a href="https://github.com/sighingnow/jekyll-gitbook">jekyll-gitbook</a> implementation.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jesse-wei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jesse-wei.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-25T22:02:03+00:00</updated><id>https://jesse-wei.github.io/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. Welcome to my website!
+</subtitle><entry><title type="html">Advanced ACT Math Concepts</title><link href="https://jesse-wei.github.io/blog/2022/act-math/" rel="alternate" type="text/html" title="Advanced ACT Math Concepts" /><published>2022-08-10T16:00:00+00:00</published><updated>2022-08-10T16:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/act-math</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/act-math/"><![CDATA[<p>T</p>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[18 pgs]]></summary></entry><entry><title type="html">ACT Guide</title><link href="https://jesse-wei.github.io/blog/2022/act-guide/" rel="alternate" type="text/html" title="ACT Guide" /><published>2022-08-10T15:00:00+00:00</published><updated>2022-08-10T15:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/act-guide</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/act-guide/"><![CDATA[<p>T</p>]]></content><author><name></name></author><category term="act" /><summary type="html"><![CDATA[20 pgs]]></summary></entry><entry><title type="html">Symmetries between sine and cosine</title><link href="https://jesse-wei.github.io/blog/2022/sin-cos/" rel="alternate" type="text/html" title="Symmetries between sine and cosine" /><published>2022-06-04T17:00:00+00:00</published><updated>2022-06-04T17:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/sin-cos</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/sin-cos/"><![CDATA[<h2 id="geometry">Geometry</h2>
 
-<p>We decided to support the same custom blockquotes as in <a href="https://sighingnow.github.io/jekyll-gitbook/jekyll/2022-06-30-tips_warnings_dangers.html">jekyll-gitbook</a>, which are also found in a lot of other sites’ styles. The styles definitions can be found on the <a href="https://github.com/alshedivat/al-folio/blob/master/_sass/_base.scss">_base.scss</a> file, more specifically:</p>
+<p>We must start with the most basic definition.</p>
 
-<div class="language-scss highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* Tips, warnings, and dangers */</span>
-<span class="nc">.post</span> <span class="nc">.post-content</span> <span class="nt">blockquote</span> <span class="p">{</span>
-    <span class="k">&amp;</span><span class="nc">.block-tip</span> <span class="p">{</span>
-    <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block</span><span class="p">);</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block-bg</span><span class="p">);</span>
+<h3 id="lemma-1-basic-definitions-in-right-triangle">Lemma 1: Basic definitions in right triangle</h3>
 
-    <span class="nt">p</span> <span class="p">{</span>
-      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block-text</span><span class="p">);</span>
-    <span class="p">}</span>
+<p>In a right triangle, given angle \(\theta\), \(\sin \theta = \frac{\text{opposite}}{\text{hypotenuse}}\) and \(\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}}\)</p>
 
-    <span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span> <span class="p">{</span>
-      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-tip-block-title</span><span class="p">);</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
+<p>But it’s definitely best to visualize:</p>
 
-  <span class="k">&amp;</span><span class="nc">.block-warning</span> <span class="p">{</span>
-    <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block</span><span class="p">);</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block-bg</span><span class="p">);</span>
-
-    <span class="nt">p</span> <span class="p">{</span>
-      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block-text</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span> <span class="p">{</span>
-      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-warning-block-title</span><span class="p">);</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-
-  <span class="k">&amp;</span><span class="nc">.block-danger</span> <span class="p">{</span>
-    <span class="nl">border-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block</span><span class="p">);</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block-bg</span><span class="p">);</span>
-
-    <span class="nt">p</span> <span class="p">{</span>
-      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block-text</span><span class="p">);</span>
-    <span class="p">}</span>
-
-    <span class="nt">h1</span><span class="o">,</span> <span class="nt">h2</span><span class="o">,</span> <span class="nt">h3</span><span class="o">,</span> <span class="nt">h4</span><span class="o">,</span> <span class="nt">h5</span><span class="o">,</span> <span class="nt">h6</span> <span class="p">{</span>
-      <span class="nl">color</span><span class="p">:</span> <span class="nf">var</span><span class="p">(</span><span class="o">--</span><span class="n">global-danger-block-title</span><span class="p">);</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></div>
-
-<p>A regular blockquote can be used as following:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; This is a regular blockquote</span>
-<span class="gt">&gt; and it can be used as usual</span>
-</code></pre></div></div>
-
-<blockquote>
-  <p>This is a regular blockquote
-and it can be used as usual</p>
-</blockquote>
-
-<p>These custom styles can be used by adding the specific class to the blockquote, as follows:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### TIP</span>
-<span class="gt">&gt;</span>
-<span class="gt">&gt; A tip can be used when you want to give advice</span>
-<span class="gt">&gt; related to a certain content.</span>
-{: .block-tip }
-</code></pre></div></div>
-
-<blockquote class="block-tip">
-  <h5 id="tip">TIP</h5>
-
-  <p>A tip can be used when you want to give advice
-related to a certain content.</p>
-</blockquote>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### WARNING</span>
-<span class="gt">&gt;</span>
-<span class="gt">&gt; This is a warning, and thus should</span>
-<span class="gt">&gt; be used when you want to warn the user</span>
-{: .block-warning }
-</code></pre></div></div>
-
-<blockquote class="block-warning">
-  <h5 id="warning">WARNING</h5>
-
-  <p>This is a warning, and thus should
-be used when you want to warn the user</p>
-</blockquote>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; ##### DANGER</span>
-<span class="gt">&gt;</span>
-<span class="gt">&gt; This is a danger zone, and thus should</span>
-<span class="gt">&gt; be used carefully</span>
-{: .block-danger }
-</code></pre></div></div>
-
-<blockquote class="block-danger">
-  <h5 id="danger">DANGER</h5>
-
-  <p>This is a danger zone, and thus should
-be used carefully</p>
-</blockquote>]]></content><author><name></name></author><category term="sample-posts" /><category term="blockquotes" /><summary type="html"><![CDATA[an example of a blog post with custom blockquotes]]></summary></entry><entry><title type="html">a post with table of contents on a sidebar</title><link href="https://jesse-wei.github.io/blog/2023/sidebar-table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents on a sidebar" /><published>2023-04-25T14:14:00+00:00</published><updated>2023-04-25T14:14:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/sidebar-table-of-contents</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/sidebar-table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents as a sidebar.</p>
-
-<h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
-
-<p>To add a table of contents to a post as a sidebar, simply add</p>
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-  <span class="na">sidebar</span><span class="pi">:</span> <span class="s">left</span>
-</code></pre></div></div>
-<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post. If you wish to display the sidebar to the right, simply change <code class="language-plaintext highlighter-rouge">left</code> to <code class="language-plaintext highlighter-rouge">right</code>.</p>
-
-<h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h2 data-toc-text="Customizing" id="customizing-your-table-of-contents">Customizing Your Table of Contents</h2>
-
-<p>If you want to learn more about how to customize the table of contents of your sidebar, you can check the <a href="https://afeld.github.io/bootstrap-toc/">bootstrap-toc</a> documentation. Notice that you can even customize the text of the heading that will be displayed on the sidebar.</p>
-
-<h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><category term="sidebar" /><summary type="html"><![CDATA[an example of a blog post with table of contents on a sidebar]]></summary></entry><entry><title type="html">a post with audios</title><link href="https://jesse-wei.github.io/blog/2023/audios/" rel="alternate" type="text/html" title="a post with audios" /><published>2023-04-25T10:25:00+00:00</published><updated>2023-04-25T10:25:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/audios</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/audios/"><![CDATA[<p>This is an example post with audios. It supports local audio files.</p>
-
-<div class="row mt-3">
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
-  <audio src="/assets/audio/epicaly-short-113909.mp3" controls="" />
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/act/sin-cos/sincos-definition-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/act/sin-cos/sincos-definition-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/act/sin-cos/sincos-definition-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/act/sin-cos/sincos-definition.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Basic geometric definition of sine and cosine" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
 
 </figure>
 
     </div>
+</div>
+
+<div class="caption">Basic geometric definition of sine and cosine</div>
+
+<p>From the definitions, we get that the green side is \(h\cos \theta\) because \(\cos \theta = \frac{\text{adjacent}}{\text{hypotenuse}} \implies \text{adjacent} = h\cos \theta\). Similarly, the blue side is \(h\sin \theta\). Letting \(h=1\), the adjacent side is just \(\cos \theta\), and the opposite side is \(\sin \theta\). With this setup, we can show <strong>Lemma 2</strong>.</p>
+
+<h3 id="lemma-2-90-separation">Lemma 2: 90° separation</h3>
+
+<p>\(\cos \theta = \sin(\frac{\pi}{2} - \theta)\) and \(\sin \theta = \cos(\frac{\pi}{2} - \theta)\) for arbitrary \(\theta\)</p>
+
+<p><em>Proof</em>. Consider \(\alpha=\frac{\pi}{2}-\theta\). In the triangle with hypotenuse 1, the green side is \(\cos \theta = \frac{\text{adjacent}}{1}\). It is also \(\sin \alpha = \frac{\text{opposite}}{1}\). Hence, \(\cos \theta = \sin(\frac{\pi}{2} - \theta)\). Similar reasoning holds for the latter identity and for arbitrary \(h\).</p>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <figure>
 
-  <audio src="https://cdn.pixabay.com/download/audio/2022/06/25/audio_69a61cd6d6.mp3" controls="" />
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/act/sin-cos/sincos-identity-90-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/act/sin-cos/sincos-identity-90-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/act/sin-cos/sincos-identity-90-1400.webp" />
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/act/sin-cos/sincos-identity-90.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Geometric proof of separation by 90 degrees" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+
+  </picture>
 
 </figure>
 
     </div>
 </div>
-<div class="caption">
-    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
-</div>]]></content><author><name></name></author><category term="sample-posts" /><category term="including" /><category term="audios" /><summary type="html"><![CDATA[this is what included audios could look like]]></summary></entry><entry><title type="html">a post with videos</title><link href="https://jesse-wei.github.io/blog/2023/videos/" rel="alternate" type="text/html" title="a post with videos" /><published>2023-04-24T21:01:00+00:00</published><updated>2023-04-24T21:01:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/videos</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/videos/"><![CDATA[<p>This is an example post with videos. It supports local video files.</p>
 
-<div class="row mt-3">
+<div class="caption">Geometric proof of separation by 90 degrees</div>
+
+<p>Here’s a Desmos graph where you can see the identity for yourself: <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p align="center">
+<iframe class="center" src="https://www.desmos.com/calculator/csddcvviru" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen=""></iframe>
+</p>
+
+<p>Back to <strong>Lemma 1</strong>, why should the basic definition be limited to a static right triangle? What about a dynamic right triangle, perhaps one like this: <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<p align="center">
+<iframe class="center" src="https://www.desmos.com/calculator/ko2y1gnr7d" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen=""></iframe>
+</p>
+
+<p>In this graph, the x coordinates always involve \(\cos \theta\), and the y coordinates always involve \(\sin \theta\). Thinking of the black line as a vector <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>, we see that to get the horizontal component of the vector, we multiply its length by \(\cos \theta\). To get its vertical component, we multiply its length by \(\sin \theta\). In other words, \(\cos \theta\) projects to \(x\), and \(\sin \theta\) projects to \(y\).</p>
+
+<p>This applies to the graph of a circle as well. Note that, again, \(x\) always goes with \(\cos \theta\), and \(y\) always goes with \(\sin \theta\).</p>
+
+<p align="center">
+<iframe class="center" src="https://www.desmos.com/calculator/jwpjnk3tqk" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen=""></iframe>
+</p>
+
+<p>To make this idea even more clear, you should take a look at this <a href="https://www.khanacademy.org/computer-programming/circle/4597064320155648">unit circle animation on Khan Academy</a>.</p>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        
+        <figure>
 
-<figure>
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/act/sin-cos/sincos-animation-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/act/sin-cos/sincos-animation-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/act/sin-cos/sincos-animation-1400.webp" />
+    
 
-  
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/act/sin-cos/sincos-animation.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="A still screenshot of unit circle animation on Khan Academy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  <video src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" autoplay="" controls="" />
-
-  
+  </picture>
 
 </figure>
 
     </div>
+</div>
+
+<div class="caption">A still screenshot of <a href="https://www.khanacademy.org/computer-programming/circle/4597064320155648">unit circle animation</a> from Khan Academy</div>
+
+<h2 id="algebra">Algebra</h2>
+
+<p>There is an algebraic symmetry that is, in my opinion, as beautiful as the symmetries above. This symmetry also allows us to prove <a href="../eulers_formula/">\(e^{ix} = \cos x + i\sin x\)</a> for any \(x\).</p>
+
+<h3 id="lemma-3-sine-and-cosine-series-expansions">Lemma 3: Sine and cosine series expansions</h3>
+
+<p>\(\cos x = 1 - \frac{x^2}{2} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots\), and \(\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots\) <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></p>
+
+<p><em>Proof</em>. Consider that the <a href="https://en.wikipedia.org/wiki/Taylor_series">Taylor series</a> <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup> expansion of \(f(x)\) about the point \(a\) is \(f(a)+f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^3 + \cdots + \frac{f^{(n)}(a)}{n!}(x-a)^n + \cdots\)</p>
+
+<p>The Maclaurin expansion is the Taylor series centered at \(a=0\), so the Maclaurin expansion of \(f(x)\) is \(f(0) + f'(0)x + \frac{f''(0)}{2!}x^2 + \frac{f'''(0)}{3!}x^3 + \cdots + \frac{f^{(n)}(0)}{n!}x^n + \cdots\)</p>
+
+<p>Let \(f(x) = \cos x\). We know that <sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup></p>
+
+\[\begin{matrix}
+    f(x) &amp; = &amp; \cos x\\
+    f'(x) &amp; = &amp; -\sin x\\
+    f''(x) &amp; = &amp; -\cos x\\
+    f'''(x) &amp; = &amp; \sin x\\
+    f''''(x) &amp; = &amp; \cos x\\
+    \vdots &amp; \vdots &amp; \vdots
+\end{matrix}\]
+
+<p>Using that \(\cos(0) = 1\) and \(\sin(0) = 0\), we have that the first few terms of the Maclaurin series are \(1 + 0x -\frac{x^2}{2} + 0x^3 + \frac{x^4}{4!}\). Now, we write the pattern: \(\cos x = \sum_{n=0}^{\infty} \frac{(-1)^n}{2n!} x^{2n}\)</p>
+
+<p>Any odd power will have \(\sin(0)=0\) and so can be ignored. Hence, we use only the even numbers \(2n\) in our summation. Using that \(f(x)=\cos x\) and \(f''(x) = -\cos x\), we note that the signs alternate each (even) term, so we also have \((-1)^n\) in the summation.</p>
+
+<p>Similar reasoning holds for \(\sin x = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!}x^{2n+1}\).</p>
+
+<p>Lastly, there are also two trigonometric identities that I have always found interesting, in terms of symmetry.</p>
+
+<h3 id="lemma-4-angle-sum-and-difference-identities">Lemma 4: Angle sum and difference identities</h3>
+
+\[\sin(\alpha + \beta) = \sin(\alpha) \cos(\beta) + \cos(\alpha) \sin(\beta)\]
+
+\[\sin(\alpha - \beta) = \sin(\alpha) \cos(\beta) - \cos(\alpha) \sin(\beta)\]
+
+\[\cos(\alpha + \beta) = \cos(\alpha) \cos(\beta) - \sin(\alpha) \sin(\beta)\]
+
+\[\cos(\alpha - \beta) = \cos(\alpha) \cos(\beta) + \sin(\alpha) \sin(\beta)\]
+
+<p>I won’t prove these identities here, but I will write about the symmetries. Note that the \(\sin\) identities have matching signs; that is, if there is a \(+\) on the left side, there’s a \(+\) on the right side. However, the multiplications are mismatched in that \(\sin\) is multiplied by \(\cos\) and vice versa.</p>
+
+<p>On the other hand, the \(\cos\) identities have matching multiplication in that \(\cos\) multiplies \(\cos\), and \(\sin\) multiplies \(\sin\). The signs, however, are mismatched.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>You can press the ▶️ on the left to view the animation. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Note that there is no magic going on here. There’s nothing in Desmos that specifically generates an arbitrary right triangle - this graph uses only the sine and cosine knowledge shown above! <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Since we can vary its length \(r\) and its angle \(t\) <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>Note that the cosine expansion contains only even powers of \(x\) (including \(x^0 = 1\)) divided by even factorials, and the sine expansion contains only odd powers of \(x\) divided by odd factorials. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>I might write an article about the Taylor series! For now, the tl;dr is that the Taylor expansion of a complicated function is a highly accurate approximation that is made up of less complicated polynomial terms, which are much easier to work with. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p>Note here that the cycle length is 4, which is the same as that of the powers of \(i\). \(1, i, -1, -i, 1, \dots\) <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[Cool geometric and algebraic symmetries. Several embedded Desmos graphs.]]></summary></entry><entry><title type="html">ACT tutoring notes</title><link href="https://jesse-wei.github.io/blog/2022/tutoring-notes/" rel="alternate" type="text/html" title="ACT tutoring notes" /><published>2022-06-04T16:00:00+00:00</published><updated>2022-06-04T16:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/tutoring-notes</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/tutoring-notes/"><![CDATA[<ul>
+  <li>2022-06-04 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1Rv-uoJf2GoVGSzVr3pSjbZOVe8qzdlh4/view?usp=sharing">Math E25</a></li>
+      <li><a href="../sin-cos">Sine and cosine symmetries</a></li>
+      <li><a href="https://www.smh.com.au/politics/federal/in-dumb-luck-we-can-trust-20120127-1qldb.html">Conditional probability trick question</a></li>
+    </ul>
+  </li>
+  <li>2022-05-28 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1iwmlCQg9238y1ceVeSzZJlqg0LvuIkLQ/view?usp=sharing">Math Z08</a></li>
+      <li><a href="../pascals-triangle">Pascal’s triangle</a></li>
+    </ul>
+  </li>
+  <li>2022-05-22 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1WUBGmeMI4gPJIalZb740zxszT_mhGbqf/view?usp=sharing">Review</a></li>
+    </ul>
+  </li>
+  <li>2022-05-07 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1jyIx4bfLdxYEYlCLjfqnCfhNkMM__q8Q/view?usp=sharing">Math 74H</a></li>
+      <li><a href="https://www.desmos.com/calculator/hndmyzbpcf">Circle graph</a></li>
+      <li><a href="https://www.desmos.com/calculator/otuhsdrrpk">Amplitude (trig)</a></li>
+      <li><a href="https://gist.github.com/jesse-wei/a7e18d3156485dac471f1f238066cc96">Expected value/variance</a></li>
+      <li><a href="https://gist.github.com/jesse-wei/886eb8bf4f36e77430c7358e85a5c1b5">Expectation/variance helper functions</a></li>
+    </ul>
+  </li>
+  <li>2022-04-17 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1BysVyB1F3Gtx07JhZbeIUGSziPmKlR64/view?usp=sharing">Math C02</a></li>
+      <li><a href="https://www.desmos.com/calculator/lsqv5fbsnu">Ellipse graph</a></li>
+      <li><a href="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:law-of-sines/e/law_of_sines">Law of sines practice</a></li>
+      <li><a href="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:trig/x9e81a4f98389efdf:law-of-cosines/e/law_of_cosines">Law of cosines practice</a></li>
+      <li><a href="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:conics/x9e81a4f98389efdf:ellipse-center-radii/e/equation-of-an-ellipse-from-its-graph">Ellipse practice</a></li>
+    </ul>
+  </li>
+  <li>2022-04-07 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/18FWSA69sHMM7OapjVfd3HZ6PiucMDxQT/view?usp=sharing">Math Z15</a></li>
+    </ul>
+  </li>
+  <li>2022-04-03 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1nElaUsPS5KGGQ-qkV_WKr6UjwBLy_KVr/view?usp=sharing">Math 74F</a></li>
+    </ul>
+  </li>
+  <li>2022-03-27 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1NAxikcceYebGBFFC_oRAJyQlvvEipwfI/view?usp=sharing">Math 65E</a></li>
+    </ul>
+  </li>
+  <li>2022-03-26 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/18ZMkOV5L0j8f3IAwIpwcwJ2L856NaoxP/view?usp=sharing">Math 65E</a>
+        <ul>
+          <li>Also includes recurrence and inclusion-exclusion principle.</li>
+        </ul>
+      </li>
+      <li><a href="https://gist.github.com/jesse-wei/98c22a973b8025a381c6c26983dd0a4c">Verifying that \(0! = 1\) using \(\cos(x)\) Maclaurin expansion</a></li>
+      <li><a href="https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain">StackExchange visually stunning math concepts</a></li>
+      <li><a href="https://www.khanacademy.org/computer-programming/circle/4597064320155648">Unit circle animation</a></li>
+    </ul>
+  </li>
+  <li>2022-03-20 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1hqQcw-dJv90OaGIVXgW_vBaAr4HGrxyl/view?usp=sharing">Math D03 &amp; \(\pi\) (Archimedean method)</a></li>
+      <li><a href="https://gist.github.com/jesse-wei/9fde4d5e0ace58dbf3f04f312e3bf459">Archimedean method of calculating \(\pi\)</a></li>
+    </ul>
+  </li>
+  <li>2022-03-19 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1KhVShHMvoFb-Mbkq3NVFMtdj7iEkjeZQ/view?usp=sharing">Math D03</a></li>
+    </ul>
+  </li>
+  <li>2022-03-13 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1LLqOwb3D3pbA82dmQFXhGw0ZgwuUvk8Z/view?usp=sharing">Math 73C</a></li>
+    </ul>
+  </li>
+  <li>2022-03-12 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1b2K56aPp2D4rT89wwF-tp7TJyztkdomo/view?usp=sharing">Math 67F</a></li>
+      <li><a href="https://www.grammarly.com/blog/participle/">Participles</a> and <a href="https://www.grammar-monster.com/glossary/past_participles.htm">examples</a></li>
+    </ul>
+  </li>
+  <li>2022-03-06 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1VCWT-jyVT9NcqbH3gkBgQ4cBToVv0VoZ/view?usp=sharing">Math 69A</a></li>
+    </ul>
+  </li>
+  <li>2022-03-05 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1P0VpvIPmqqAyyx6vaRwc65Pu8_YEe3sY/view?usp=sharing">Math 74C</a></li>
+      <li><a href="https://www.desmos.com/calculator/69lwvvd8ax">Multiplicity of roots</a></li>
+      <li><a href="https://www.desmos.com/calculator/7kwlqhitkn">\(\sin\), \(\cos\), and \(e\)</a></li>
+    </ul>
+  </li>
+  <li>2022-03-05 (L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1pUKWGBJtDd9ua7rrO-7kaRiXVwSDwid3/view?usp=sharing">Math 73G</a></li>
+    </ul>
+  </li>
+  <li>2022-02-27 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1EyeqMYu2v4uwqylgRrrimppwS2BlMkBt/view?usp=sharing">Math 71E</a></li>
+      <li><a href="https://learningenglish.voanews.com/a/everyday-grammar-have-you-perfected-the-perfect-tenses/3137265.html">Perfect tense conjugations</a></li>
+      <li><a href="https://www.grammarly.com/blog/adjective/">Adjective</a></li>
+      <li><a href="https://www.grammarly.com/blog/hyphen/">Hyphen</a></li>
+    </ul>
+  </li>
+  <li>2022-02-26 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1yFlGsgLfplrmF1FyfEuQs7NvwGxLEWxC/view?usp=sharing">Math 73C</a></li>
+      <li><a href="https://www.youtube.com/watch?v=wTlw7fNcO-0">Video: Fibonacci</a></li>
+      <li><a href="https://www.grammarly.com/blog/comma/">Comma</a></li>
+      <li><a href="https://www.grammarly.com/blog/adjective/">Adjective</a></li>
+    </ul>
+  </li>
+  <li>2022-02-26 (L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1luHRolPDKc_K2RrF5kraPuGjG7ED4wC8/view?usp=sharing">Math 73C</a></li>
+    </ul>
+  </li>
+  <li>2022-02-20 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/16aXiwT5XaAWcRy09clLTkK19-_GV3bzd/view?usp=sharing">Math A10</a></li>
+    </ul>
+  </li>
+  <li>2022-02-20 (C)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1nElaUsPS5KGGQ-qkV_WKr6UjwBLy_KVr/view?usp=sharing">Math 74F</a></li>
+    </ul>
+  </li>
+  <li>2022-02-19 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/16aXiwT5XaAWcRy09clLTkK19-_GV3bzd/view?usp=sharing">Math A10</a></li>
+      <li><a href="https://www.desmos.com/calculator/zr6zpiadri">Graphical inverse</a></li>
+      <li><a href="https://www.youtube.com/watch?v=T647CGsuOVU">Video: Graphing imaginary solutions</a></li>
+    </ul>
+  </li>
+  <li>2022-02-13 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1SlRSwuy9rj6IxKpziLCiRqAMU6dTmT66/view?usp=sharing">Math 70C</a></li>
+    </ul>
+  </li>
+  <li>2022-02-13 (C)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1Jn-AdSeH5A-NhYVxGirCiETTNoqcvms4/view?usp=sharing">Math A10</a></li>
+    </ul>
+  </li>
+  <li>2022-02-12 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1N-CJKM5VZXPIj0F-N4VkUBjkuDUlI8vq/view?usp=sharing">Math A11</a></li>
+      <li><a href="https://dictionary.cambridge.org/us/grammar/british-grammar/adjectives-order">Order of adjectives</a></li>
+    </ul>
+  </li>
+  <li>2022-02-12 (L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1MK-NyDLu943IUG4Z7WIiLOUbvMams8uN/view?usp=sharing">Math Preparing for the ACT 2015-2016</a></li>
+    </ul>
+  </li>
+  <li>2022-02-06 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1vRCAe5Zp4ayKG_g87wcsp1y_R8BhNsR5/view?usp=sharing">Math B05</a></li>
+    </ul>
+  </li>
+  <li>2022-02-06 (C)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1HDi_SyiAPcvEFOTfN104ecz5vpPTv5kn/view?usp=sharing">Math 74H &amp; B05</a></li>
+    </ul>
+  </li>
+  <li>2022-02-05 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1N5ka4IcvQD_i0awQof0epq3cvRF2rGuy/view?usp=sharing">Math B05</a></li>
+      <li><a href="http://www.math.odu.edu/~bogacki/cgi-bin/lat.cgi">Linear Algebra Toolkit (RREF)</a></li>
+      <li><a href="https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:properties-of-matrix-multiplication/a/intro-to-identity-matrices">Identity matrices</a></li>
+    </ul>
+  </li>
+  <li>2022-02-05 (L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/12NQnQleGhTxETApVJpYxInHimqOh4ufh/view?usp=sharing">Math C01</a></li>
+    </ul>
+  </li>
+  <li>2022-01-29 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1ZkciGqcjQjlkH4ROZeVrRe2Ny4hlZxbo/view?usp=sharing">Math Preparing for the ACT 2015-2016</a></li>
+      <li><a href="https://www.desmos.com/calculator/te4ce0hixf">General \(\sin\)/\(\cos\) equation</a></li>
+    </ul>
+  </li>
+  <li>2022-01-23 (A&amp;A)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/18uFS1gD1avW3d0-cxBDoY3rKUJOrleVy/view?usp=sharing">Math B02</a></li>
+    </ul>
+  </li>
+  <li>2022-01-22 (G&amp;L)
+    <ul>
+      <li><a href="https://drive.google.com/file/d/1PJ3KTbgR02vax06JdRvBTyeJafqBDIW8/view?usp=sharing">Math E23</a></li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[Notes from ACT tutoring sessions.]]></summary></entry><entry><title type="html">Pascal’s triangle</title><link href="https://jesse-wei.github.io/blog/2022/pascals-triangle/" rel="alternate" type="text/html" title="Pascal’s triangle" /><published>2022-05-28T16:00:00+00:00</published><updated>2022-05-28T16:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/pascals-triangle</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/pascals-triangle/"><![CDATA[<p>Consider the following question: In the polynomial expansion of \((x+y)^5\), what is the coefficient of the \(x^2y^3\) term? You could expand this out as</p>
+
+\[(x+y)(x+y)(x+y)(x+y)(x+y)\]
+
+<p>Of course, this would take forever. Is there a better way? <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
+
+<p>Consider the following situation: you have 5 boxes, each with one \(x\) and \(y\), and you have to choose one element from each box. How many different ways are there to pick out 2 \(x\)’s and 3 \(y\)’s? In actuality, this is precisely the same question.</p>
+
+<p>Now consider a simpler case, as we should usually do when something appears difficult. What is the coefficient of the \(x^5\) term? Clearly, it is 1. We know that because there’s only one way to get \(x^5\): pick out an \(x\) from each one of the 5 binomials.</p>
+
+<p>Applying this to the \(x^2y^3\) example, we know that its coefficient should be the number of ways to pick out 2 \(x\)’s and 3 \(y\)’s. How many ways is that? We can pick 2 \(x\)’s from the first two, and that would automatically fix 3 \(y\)’s from the last 3 binomials. We could also pick out 2 \(x\)’s from the last two, and that would also automatically give us 3 of \(y\). Does this seem like a familiar concept?</p>
+
+<p>There are \(\binom{5}{2} = \frac{5!}{2!3!} = \frac{5(4)}{2}=10\) ways to pick out 2 \(x\)’s (fixing 3 \(y\)’s also) from 5 of \((x+y)\). By intuition and the identity \(\binom{n}{k} = \binom{n}{n-k}\), we know \(\binom{5}{3}\), which can be interpreted as the number of ways to pick out 3 \(y\)’s and fixing 2 \(x\)’s, is also 10. <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+<p>The binomial coefficient naturally has the symmetry \(\binom{n}{k}=\binom{n}{n-k}\), which tells us that if the coefficient of \(x^2y^3\) is \(\binom{5}{2}\) (from 5 boxes pick 2 \(x\)), and the coefficient of \(x^3y^2\) is \(\binom{5}{3}\) (from 5 boxes pick 3 \(x\)), then those two numbers are the same. After all, by inspection, why wouldn’t they be? The number of ways to pick out 2 \(x\)’s from 5 of \((x+y)\) is the same as the number of ways to pick out 2 \(y\)’s.</p>
+
+<p>This would also imply the coefficient of \(xy^4\), \(\binom{5}{1}\), should be the same as the coefficient of \(x^4y\), \(\binom{5}{4}\). And, back to where we started, the coefficient of \(x^5\), \(\binom{5}{5}\), is the same as the coefficient of \(y^5\), \(\binom{5}{0}\).</p>
+
+<p>Knowing now that binomial coefficients \(\binom{n}{0}, \binom{n}{1}, \ldots ,\binom{n}{n}\) are the coefficients of \((x+y)^n\), what if we arrange these binomial coefficients in a triangle like so:</p>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        
+        <figure>
 
-<figure>
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/act/pascals-triangle/pascal-binoms-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/act/pascals-triangle/pascal-binoms-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/act/pascals-triangle/pascal-binoms-1400.webp" />
+    
 
-  
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/act/pascals-triangle/pascal-binoms.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Pascal's triangle with binomial coefficients" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  <video src="/assets/video/pexels-engin-akyurt-6069112-960x540-30fps.mp4" class="img-fluid rounded z-depth-1" width="auto" height="auto" controls="" />
-
-  
+  </picture>
 
 </figure>
 
     </div>
 </div>
-<div class="caption">
-    A simple, elegant caption looks good between video rows, after each row, or doesn't have to be there at all.
-</div>
 
-<p>It does also support embedding videos from different sources. Here are some examples:</p>
+<div class="caption">Pascal's triangle with binomial coefficients</div>
 
-<div class="row mt-3">
+<p>Well, that doesn’t look like much. But when we compute the numbers, we get</p>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        
+        <figure>
 
-<figure>
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/act/pascals-triangle/pascal-nums-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/act/pascals-triangle/pascal-nums-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/act/pascals-triangle/pascal-nums-1400.webp" />
+    
 
-  
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/act/pascals-triangle/pascal-nums.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Pascal's triangle" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  <!-- Added center option -->
-  <iframe src="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto" />
-
-  
+  </picture>
 
 </figure>
 
     </div>
+</div>
+
+<div class="caption">Pascal's triangle</div>
+
+<p>And hopefully you’ve seen this before, so you know that each number in the triangle is the sum of the two numbers above it! <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> To reiterate, note that row \(n\) matches the coefficients of \((x+y)^n\). See the following Mathematica code. <sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup></p>
+
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        
+        <figure>
 
-<figure>
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/act/pascals-triangle/pascal-mathematica-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/act/pascals-triangle/pascal-mathematica-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/act/pascals-triangle/pascal-mathematica-1400.webp" />
+    
 
-  
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/act/pascals-triangle/pascal-mathematica.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Mathematica code for printing Pascal's triangle using binomial theorem" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
-  <!-- Added center option -->
-  <iframe src="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&amp;title=0&amp;byline=0&amp;portrait=0" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto" />
-
-  
+  </picture>
 
 </figure>
 
     </div>
-</div>]]></content><author><name></name></author><category term="sample-posts" /><category term="including" /><category term="videos" /><summary type="html"><![CDATA[this is what included videos could look like]]></summary></entry><entry><title type="html">displaying beautiful tables with Bootstrap Tables</title><link href="https://jesse-wei.github.io/blog/2023/tables/" rel="alternate" type="text/html" title="displaying beautiful tables with Bootstrap Tables" /><published>2023-03-20T18:37:00+00:00</published><updated>2023-03-20T18:37:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/tables</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/tables/"><![CDATA[<p>Using markdown to display tables is easy. Just use the following syntax:</p>
-
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| Left aligned | Center aligned | Right aligned |
-| :----------- | :------------: | ------------: |
-| Left 1       | center 1       | right 1       |
-| Left 2       | center 2       | right 2       |
-| Left 3       | center 3       | right 3       |
-</code></pre></div></div>
-
-<p>That will generate:</p>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">Left aligned</th>
-      <th style="text-align: center">Center aligned</th>
-      <th style="text-align: right">Right aligned</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Left 1</td>
-      <td style="text-align: center">center 1</td>
-      <td style="text-align: right">right 1</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Left 2</td>
-      <td style="text-align: center">center 2</td>
-      <td style="text-align: right">right 2</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Left 3</td>
-      <td style="text-align: center">center 3</td>
-      <td style="text-align: right">right 3</td>
-    </tr>
-  </tbody>
-</table>
-
-<p></p>
-
-<p>It is also possible to use HTML to display tables. For example, the following HTML code will display a table with <a href="https://bootstrap-table.com/">Bootstrap Table</a>, loaded from a JSON file:</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
-  <span class="na">id=</span><span class="s">"table"</span>
-  <span class="na">data-toggle=</span><span class="s">"table"</span>
-  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"id"</span><span class="nt">&gt;</span>ID<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"name"</span><span class="nt">&gt;</span>Item Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"price"</span><span class="nt">&gt;</span>Item Price<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-<span class="nt">&lt;/table&gt;</span>
-</code></pre></div></div>
-
-<table data-toggle="table" data-url="/assets/json/table_data.json">
-  <thead>
-    <tr>
-      <th data-field="id">ID</th>
-      <th data-field="name">Item Name</th>
-      <th data-field="price">Item Price</th>
-    </tr>
-  </thead>
-</table>
-
-<p></p>
-
-<p>By using <a href="https://bootstrap-table.com/">Bootstrap Table</a> it is possible to create pretty complex tables, with pagination, search, and more. For example, the following HTML code will display a table, loaded from a JSON file, with pagination, search, checkboxes, and header/content alignment. For more information, check the <a href="https://examples.bootstrap-table.com/index.html">documentation</a>.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span>
-  <span class="na">data-click-to-select=</span><span class="s">"true"</span>
-  <span class="na">data-height=</span><span class="s">"460"</span>
-  <span class="na">data-pagination=</span><span class="s">"true"</span>
-  <span class="na">data-search=</span><span class="s">"true"</span>
-  <span class="na">data-toggle=</span><span class="s">"table"</span>
-  <span class="na">data-url=</span><span class="s">"{{ '/assets/json/table_data.json' | relative_url }}"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;thead&gt;</span>
-    <span class="nt">&lt;tr&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-checkbox=</span><span class="s">"true"</span><span class="nt">&gt;&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"id"</span> <span class="na">data-halign=</span><span class="s">"left"</span> <span class="na">data-align=</span><span class="s">"center"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>ID<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"name"</span> <span class="na">data-halign=</span><span class="s">"center"</span> <span class="na">data-align=</span><span class="s">"right"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>Item Name<span class="nt">&lt;/th&gt;</span>
-      <span class="nt">&lt;th</span> <span class="na">data-field=</span><span class="s">"price"</span> <span class="na">data-halign=</span><span class="s">"right"</span> <span class="na">data-align=</span><span class="s">"left"</span> <span class="na">data-sortable=</span><span class="s">"true"</span><span class="nt">&gt;</span>Item Price<span class="nt">&lt;/th&gt;</span>
-    <span class="nt">&lt;/tr&gt;</span>
-  <span class="nt">&lt;/thead&gt;</span>
-<span class="nt">&lt;/table&gt;</span>
-</code></pre></div></div>
-
-<table data-click-to-select="true" data-height="460" data-pagination="true" data-search="true" data-toggle="table" data-url="/assets/json/table_data.json">
-  <thead>
-    <tr>
-      <th data-checkbox="true"></th>
-      <th data-field="id" data-halign="left" data-align="center" data-sortable="true">ID</th>
-      <th data-field="name" data-halign="center" data-align="right" data-sortable="true">Item Name</th>
-      <th data-field="price" data-halign="right" data-align="left" data-sortable="true">Item Price</th>
-    </tr>
-  </thead>
-</table>]]></content><author><name></name></author><category term="sample-posts" /><summary type="html"><![CDATA[an example of how to use Bootstrap Tables]]></summary></entry><entry><title type="html">a post with table of contents</title><link href="https://jesse-wei.github.io/blog/2023/table-of-contents/" rel="alternate" type="text/html" title="a post with table of contents" /><published>2023-03-20T15:59:00+00:00</published><updated>2023-03-20T15:59:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/table-of-contents</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/table-of-contents/"><![CDATA[<p>This post shows how to add a table of contents in the beginning of the post.</p>
-
-<h2 id="adding-a-table-of-contents">Adding a Table of Contents</h2>
-
-<p>To add a table of contents to a post, simply add</p>
-<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">toc</span><span class="pi">:</span>
-  <span class="na">beginning</span><span class="pi">:</span> <span class="kc">true</span>
-</code></pre></div></div>
-<p>to the front matter of the post. The table of contents will be automatically generated from the headings in the post.</p>
-
-<h3 id="example-of-sub-heading-1">Example of Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-1">Example of another Sub-Heading 1</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h2 id="table-of-contents-options">Table of Contents Options</h2>
-
-<p>If you want to learn more about how to customize the table of contents, you can check the <a href="https://github.com/toshimaru/jekyll-toc">jekyll-toc</a> repository.</p>
-
-<h3 id="example-of-sub-heading-2">Example of Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
-
-<h3 id="example-of-another-sub-heading-2">Example of another Sub-Heading 2</h3>
-
-<p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="toc" /><summary type="html"><![CDATA[an example of a blog post with table of contents]]></summary></entry><entry><title type="html">a post with giscus comments</title><link href="https://jesse-wei.github.io/blog/2022/giscus-comments/" rel="alternate" type="text/html" title="a post with giscus comments" /><published>2022-12-10T15:59:00+00:00</published><updated>2022-12-10T15:59:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/giscus-comments</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/giscus-comments/"><![CDATA[<p>This post shows how to add GISCUS comments.</p>]]></content><author><name></name></author><category term="sample-posts" /><category term="external-services" /><summary type="html"><![CDATA[an example of a blog post with giscus comments]]></summary></entry><entry><title type="html">a post with redirect</title><link href="https://jesse-wei.github.io/blog/2022/redirect/" rel="alternate" type="text/html" title="a post with redirect" /><published>2022-02-01T17:39:00+00:00</published><updated>2022-02-01T17:39:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/redirect</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/redirect/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[you can also redirect to assets like pdf]]></summary></entry><entry><title type="html">a post with diagrams</title><link href="https://jesse-wei.github.io/blog/2021/diagrams/" rel="alternate" type="text/html" title="a post with diagrams" /><published>2021-07-04T17:39:00+00:00</published><updated>2021-07-04T17:39:00+00:00</updated><id>https://jesse-wei.github.io/blog/2021/diagrams</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2021/diagrams/"><![CDATA[<p>This theme supports generating various diagrams from a text description using <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> plugin.
-Below, we generate a few examples of such diagrams using languages such as <a href="https://mermaid-js.github.io/mermaid/" target="\_blank">mermaid</a>, <a href="https://plantuml.com/" target="\_blank">plantuml</a>, <a href="https://vega.github.io/vega-lite/" target="\_blank">vega-lite</a>, etc.</p>
-
-<p><strong>Note:</strong> different diagram-generation packages require external dependencies to be installed on your machine.
-Also, be mindful of that because of diagram generation the fist time you build your Jekyll website after adding new diagrams will be SLOW.
-For any other details, please refer to <a href="https://github.com/zhustec/jekyll-diagrams" target="\_blank">jekyll-diagrams</a> README.</p>
-
-<h2 id="mermaid">Mermaid</h2>
-
-<p>Install mermaid using <code class="language-plaintext highlighter-rouge">node.js</code> package manager <code class="language-plaintext highlighter-rouge">npm</code> by running the following command:</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm <span class="nb">install</span> <span class="nt">-g</span> mermaid.cli
-</code></pre></div></div>
-
-<p>The diagram below was generated by the following code:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% mermaid %}
-sequenceDiagram
-    participant John
-    participant Alice
-    Alice-&gt;&gt;John: Hello John, how are you?
-    John--&gt;&gt;Alice: Great!
-{% endmermaid %}
-</code></pre></div></div>
-
-<div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1685026943830" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1685026943830 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1685026943830 .node circle,#mermaid-1685026943830 .node ellipse,#mermaid-1685026943830 .node polygon,#mermaid-1685026943830 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1685026943830 .node.clickable{cursor:pointer}#mermaid-1685026943830 .arrowheadPath{fill:#333}#mermaid-1685026943830 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1685026943830 .edgeLabel{background-color:#e8e8e8}#mermaid-1685026943830 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1685026943830 .cluster text{fill:#333}#mermaid-1685026943830 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1685026943830 .actor{stroke:#ccf;fill:#ececff}#mermaid-1685026943830 text.actor{fill:#000;stroke:none}#mermaid-1685026943830 .actor-line{stroke:grey}#mermaid-1685026943830 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1685026943830 .messageLine0,#mermaid-1685026943830 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1685026943830 #arrowhead{fill:#333}#mermaid-1685026943830 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1685026943830 .messageText{fill:#333;stroke:none}#mermaid-1685026943830 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1685026943830 .labelText,#mermaid-1685026943830 .loopText{fill:#000;stroke:none}#mermaid-1685026943830 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1685026943830 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1685026943830 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1685026943830 .section{stroke:none;opacity:.2}#mermaid-1685026943830 .section0{fill:rgba(102,102,255,.49)}#mermaid-1685026943830 .section2{fill:#fff400}#mermaid-1685026943830 .section1,#mermaid-1685026943830 .section3{fill:#fff;opacity:.2}#mermaid-1685026943830 .sectionTitle0,#mermaid-1685026943830 .sectionTitle1,#mermaid-1685026943830 .sectionTitle2,#mermaid-1685026943830 .sectionTitle3{fill:#333}#mermaid-1685026943830 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1685026943830 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1685026943830 .grid path{stroke-width:0}#mermaid-1685026943830 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1685026943830 .task{stroke-width:2}#mermaid-1685026943830 .taskText{text-anchor:middle;font-size:11px}#mermaid-1685026943830 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1685026943830 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1685026943830 .taskText0,#mermaid-1685026943830 .taskText1,#mermaid-1685026943830 .taskText2,#mermaid-1685026943830 .taskText3{fill:#fff}#mermaid-1685026943830 .task0,#mermaid-1685026943830 .task1,#mermaid-1685026943830 .task2,#mermaid-1685026943830 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1685026943830 .taskTextOutside0,#mermaid-1685026943830 .taskTextOutside1,#mermaid-1685026943830 .taskTextOutside2,#mermaid-1685026943830 .taskTextOutside3{fill:#000}#mermaid-1685026943830 .active0,#mermaid-1685026943830 .active1,#mermaid-1685026943830 .active2,#mermaid-1685026943830 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1685026943830 .activeText0,#mermaid-1685026943830 .activeText1,#mermaid-1685026943830 .activeText2,#mermaid-1685026943830 .activeText3{fill:#000!important}#mermaid-1685026943830 .done0,#mermaid-1685026943830 .done1,#mermaid-1685026943830 .done2,#mermaid-1685026943830 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1685026943830 .doneText0,#mermaid-1685026943830 .doneText1,#mermaid-1685026943830 .doneText2,#mermaid-1685026943830 .doneText3{fill:#000!important}#mermaid-1685026943830 .crit0,#mermaid-1685026943830 .crit1,#mermaid-1685026943830 .crit2,#mermaid-1685026943830 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1685026943830 .activeCrit0,#mermaid-1685026943830 .activeCrit1,#mermaid-1685026943830 .activeCrit2,#mermaid-1685026943830 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1685026943830 .doneCrit0,#mermaid-1685026943830 .doneCrit1,#mermaid-1685026943830 .doneCrit2,#mermaid-1685026943830 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1685026943830 .activeCritText0,#mermaid-1685026943830 .activeCritText1,#mermaid-1685026943830 .activeCritText2,#mermaid-1685026943830 .activeCritText3,#mermaid-1685026943830 .doneCritText0,#mermaid-1685026943830 .doneCritText1,#mermaid-1685026943830 .doneCritText2,#mermaid-1685026943830 .doneCritText3{fill:#000!important}#mermaid-1685026943830 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1685026943830 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1685026943830 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1685026943830 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1685026943830 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1685026943830 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1685026943830 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1685026943830 #compositionEnd,#mermaid-1685026943830 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1685026943830 #aggregationEnd,#mermaid-1685026943830 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1685026943830 #dependencyEnd,#mermaid-1685026943830 #dependencyStart,#mermaid-1685026943830 #extensionEnd,#mermaid-1685026943830 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1685026943830 .branch-label,#mermaid-1685026943830 .commit-id,#mermaid-1685026943830 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1685026943830 {
-    color: rgb(0, 0, 0);
-    font: normal normal 400 normal 16px / normal "Times New Roman";
-  }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[an example of a blog post with diagrams]]></summary></entry><entry><title type="html">a distill-style blog post</title><link href="https://jesse-wei.github.io/blog/2021/distill/" rel="alternate" type="text/html" title="a distill-style blog post" /><published>2021-05-22T00:00:00+00:00</published><updated>2021-05-22T00:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2021/distill</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2021/distill/"><![CDATA[<h2 id="equations">Equations</h2>
-
-<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://www.mathjax.org/">MathJax 3</a> engine.
-You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>.
-If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
-
-<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.
-Here is an example:</p>
-
-\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
-
-<p>Note that MathJax 3 is <a href="https://docs.mathjax.org/en/latest/upgrading/whats-new-3.0.html">a major re-write of MathJax</a> that brought a significant improvement to the loading and rendering speed, which is now <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">on par with KaTeX</a>.</p>
-
-<hr />
-
-<h2 id="citations">Citations</h2>
-
-<p>Citations are then used in the article body with the <code class="language-plaintext highlighter-rouge">&lt;d-cite&gt;</code> tag.
-The key attribute is a reference to the id provided in the bibliography.
-The key attribute can take multiple ids, separated by commas.</p>
-
-<p>The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
-If you have an appendix, a bibliography is automatically created and populated in it.</p>
-
-<p>Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
-However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.</p>
-
-<hr />
-
-<h2 id="footnotes">Footnotes</h2>
-
-<p>Just wrap the text you would like to show up in a footnote in a <code class="language-plaintext highlighter-rouge">&lt;d-footnote&gt;</code> tag.
-The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote></p>
-
-<hr />
-
-<h2 id="code-blocks">Code Blocks</h2>
-
-<p>Syntax highlighting is provided within <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> tags.
-An example of inline code snippets: <code class="language-plaintext highlighter-rouge">&lt;d-code language="html"&gt;let x = 10;&lt;/d-code&gt;</code>.
-For larger blocks of code, add a <code class="language-plaintext highlighter-rouge">block</code> attribute:</p>
-
-<d-code block="" language="javascript">
-  var x = 25;
-  function(x) {
-    return x * x;
-  }
-</d-code>
-
-<p><strong>Note:</strong> <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> blocks do not look good in the dark mode.
-You can always use the default code-highlight using the <code class="language-plaintext highlighter-rouge">highlight</code> liquid tag:</p>
-
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span>
-<span class="kd">function</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span> <span class="p">{</span>
-  <span class="k">return</span> <span class="nx">x</span> <span class="o">*</span> <span class="nx">x</span><span class="p">;</span>
-<span class="p">}</span></code></pre></figure>
-
-<hr />
-
-<h2 id="interactive-plots">Interactive Plots</h2>
-
-<p>You can add interative plots using plotly + iframes :framed_picture:</p>
-
-<div class="l-page">
-  <iframe src="/assets/plotly/demo.html" frameborder="0" scrolling="no" height="500px" width="100%" style="border: 1px dashed grey;"></iframe>
 </div>
 
-<p>The plot must be generated separately and saved into an HTML file.
-To generate the plot that you see above, you can use the following code snippet:</p>
+<div class="caption">Mathematica code for printing Pascal's triangle using binomial theorem</div>
 
-<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="n">pandas</span> <span class="k">as</span> <span class="n">pd</span>
-<span class="kn">import</span> <span class="n">plotly.express</span> <span class="k">as</span> <span class="n">px</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="nf">read_csv</span><span class="p">(</span>
-  <span class="sh">'</span><span class="s">https://raw.githubusercontent.com/plotly/datasets/master/earthquakes-23k.csv</span><span class="sh">'</span>
-<span class="p">)</span>
-<span class="n">fig</span> <span class="o">=</span> <span class="n">px</span><span class="p">.</span><span class="nf">density_mapbox</span><span class="p">(</span>
-  <span class="n">df</span><span class="p">,</span>
-  <span class="n">lat</span><span class="o">=</span><span class="sh">'</span><span class="s">Latitude</span><span class="sh">'</span><span class="p">,</span>
-  <span class="n">lon</span><span class="o">=</span><span class="sh">'</span><span class="s">Longitude</span><span class="sh">'</span><span class="p">,</span>
-  <span class="n">z</span><span class="o">=</span><span class="sh">'</span><span class="s">Magnitude</span><span class="sh">'</span><span class="p">,</span>
-  <span class="n">radius</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
-  <span class="n">center</span><span class="o">=</span><span class="nf">dict</span><span class="p">(</span><span class="n">lat</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">lon</span><span class="o">=</span><span class="mi">180</span><span class="p">),</span>
-  <span class="n">zoom</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
-  <span class="n">mapbox_style</span><span class="o">=</span><span class="sh">"</span><span class="s">stamen-terrain</span><span class="sh">"</span><span class="p">,</span>
-<span class="p">)</span>
-<span class="n">fig</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
-<span class="n">fig</span><span class="p">.</span><span class="nf">write_html</span><span class="p">(</span><span class="sh">'</span><span class="s">assets/plotly/demo.html</span><span class="sh">'</span><span class="p">)</span></code></pre></figure>
+<p>Well, there’s just one more thing… if we know that the combinatorial and numerical representations of the triangles are the same, then doesn’t that necessarily mean that the addition property that holds for the numerical triangle holds for the binomial coefficient triangle as well? <sup id="fnref:5" role="doc-noteref"><a href="#fn:5" class="footnote" rel="footnote">5</a></sup> In other words, looking at the middle of the triangle, since \(3+3=6\), \(\binom{3}{1}+\binom{3}{2}=\binom{4}{2}\)? Why?</p>
 
-<hr />
+<p>First, let’s set up the theorem. Let \(\binom{n}{k}\) represent the \(k^{\text{th}}\) entry of the \(n^{\text{th}}\) row of the binomial coefficient form of Pascal’s triangle. Since each number in the numerical Pascal’s triangle is the sum of the two numbers above, we claim that \(\binom{n}{k}=\binom{n-1}{k-1}+\binom{n-1}{k}\). <sup id="fnref:6" role="doc-noteref"><a href="#fn:6" class="footnote" rel="footnote">6</a></sup></p>
 
-<h2 id="details-boxes">Details boxes</h2>
+<h2 id="lemma-1">Lemma 1</h2>
 
-<p>Details boxes are collapsible boxes which hide additional information from the user. They can be added with the <code class="language-plaintext highlighter-rouge">details</code> liquid tag:</p>
+\[\binom{n}{k}=\binom{n-1}{k-1}+\binom{n-1}{k}\]
 
-<details><summary>Click here to know more</summary>
-<p>Additional details, where math \(2x - 1\) and <code class="language-plaintext highlighter-rouge">code</code> is rendered correctly.</p>
-</details>
+<p><em>Proof</em>.</p>
 
-<hr />
+\[\begin{aligned}
+\binom{n-1}{k-1} + \binom{n-1}{k} &amp;= \frac{(n-1)!}{(k-1)!(n-k)!} + \frac{(n-1)!}{k!(n-k-1)!}\\ &amp;= (n-1)!\left[\frac{1}{(k-1)!(n-k)!} + \frac{1}{k!(n-k-1)!}\right]\\ &amp;= (n-1)!\left[\frac{k}{k!(n-k)!} + \frac{n-k}{k!(n-k)!}\right]\\ &amp;= (n-1)!\left(\frac{n}{k!(n-k)!}\right)\\ &amp;= \frac{n!}{k!(n-k)!}\\ &amp;= \binom{n}{k}
+\end{aligned}\]
 
-<h2 id="layouts">Layouts</h2>
+<p>You can also head to <a href="https://en.wikipedia.org/wiki/Pascal%27s_rule#Combinatorial_proof">Wikipedia</a> for a very good combinatorial reasoning (no algebra) proof. I’ll prove another cool identity using combinatorial reasoning:</p>
 
-<p>The main text column is referred to as the body.
-It is the assumed layout of any direct descendants of the <code class="language-plaintext highlighter-rouge">d-article</code> element.</p>
+<h2 id="lemma-2">Lemma 2</h2>
 
-<div class="fake-img l-body">
-  <p>.l-body</p>
-</div>
+\[k\binom{n}{k}=n\binom{n-1}{k-1}\]
 
-<p>For images you want to display a little larger, try <code class="language-plaintext highlighter-rouge">.l-page</code>:</p>
+<p><em>Proof</em>. Let \(n\) be the total number of people, and suppose we want to pick out a group of \(k\) people with one special person in the group, perhaps a president. There are two ways for us to accomplish this: (1) select the group first and then within the group, select a president or (2) select a president among all people, then form the rest of the group.</p>
 
-<div class="fake-img l-page">
-  <p>.l-page</p>
-</div>
+<p>The first way involves first picking out \(k\) people from \(n\) people. There are then \(k\) ways to pick the president from the group of \(k\). By the <a href="https://www.khanacademy.org/math/ap-statistics/probability-ap/probability-multiplication-rule/a/general-multiplication-rule">multiplication rule</a>, there are \(k\binom{n}{k}\) ways to do this.</p>
 
-<p>All of these have an outset variant if you want to poke out from the body text a little bit.
-For instance:</p>
+<p>The second way is to first pick out a president to be in the group from all \(n\) people, and there are \(n\) such possible presidents. Then, from the remaining \(n-1\) people, we pick out \(k-1\) people (because the president is already included in the group). There are \(n\binom{n-1}{k-1}\) ways to do this.</p>
 
-<div class="fake-img l-body-outset">
-  <p>.l-body-outset</p>
-</div>
-
-<div class="fake-img l-page-outset">
-  <p>.l-page-outset</p>
-</div>
-
-<p>Occasionally you’ll want to use the full browser width.
-For this, use <code class="language-plaintext highlighter-rouge">.l-screen</code>.
-You can also inset the element a little from the edge of the browser by using the inset variant.</p>
-
-<div class="fake-img l-screen">
-  <p>.l-screen</p>
-</div>
-<div class="fake-img l-screen-inset">
-  <p>.l-screen-inset</p>
-</div>
-
-<p>The final layout is for marginalia, asides, and footnotes.
-It does not interrupt the normal flow of <code class="language-plaintext highlighter-rouge">.l-body</code> sized text except on mobile screen sizes.</p>
-
-<div class="fake-img l-gutter">
-  <p>.l-gutter</p>
-</div>
-
-<hr />
-
-<h2 id="other-typography">Other Typography?</h2>
-
-<p>Emphasis, aka italics, with <em>asterisks</em> (<code class="language-plaintext highlighter-rouge">*asterisks*</code>) or <em>underscores</em> (<code class="language-plaintext highlighter-rouge">_underscores_</code>).</p>
-
-<p>Strong emphasis, aka bold, with <strong>asterisks</strong> or <strong>underscores</strong>.</p>
-
-<p>Combined emphasis with <strong>asterisks and <em>underscores</em></strong>.</p>
-
-<p>Strikethrough uses two tildes. <del>Scratch this.</del></p>
-
-<ol>
-  <li>First ordered list item</li>
-  <li>Another item
-⋅⋅* Unordered sub-list.</li>
-  <li>Actual numbers don’t matter, just that it’s a number
-⋅⋅1. Ordered sub-list</li>
-  <li>And another item.</li>
-</ol>
-
-<p>⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we’ll use three here to also align the raw Markdown).</p>
-
-<p>⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)</p>
+<p>Hence, by combinatorial reasoning, \(k\binom{n}{k}=n\binom{n-1}{k-1} \quad \blacksquare\)</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>The answer’s yes, of course. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+\[\binom{n}{k} = \frac{n!}{k!(n-k)!} = \frac{n!}{(n-k)!(n-(n-k))!} = \binom{n}{n-k}\]
+      <p><a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>If there’s no number, pretend it’s a 0. And for the top-most 1, that’s our base case, have to start somewhere. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>Here, we can change to \((1+x)^n\) to make it look nicer, but the concept remains the same, as you can see. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:5" role="doc-endnote">
+      <p>It also means that the base, or first, value(s) have to be the same. Even if you grow in exactly the same way, you need to start at the same point to be exactly the same. This is an example of <a href="https://en.wikipedia.org/wiki/Mathematical_induction">mathematical induction</a>! For a similar example of induction, see <a href="../eulers_formula#proof-2-by-differential-equation">another post of mine</a>. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:6" role="doc-endnote">
+      <p>You should check that this statement does, indeed, refer to an arbitrary entry and the two entries above it. You could confirm using the \(\binom{4}{2}\) example. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[Pascal's triangle and binomial coefficients.]]></summary></entry><entry><title type="html">Math GitHub gists</title><link href="https://jesse-wei.github.io/blog/2022/math-gists/" rel="alternate" type="text/html" title="Math GitHub gists" /><published>2022-05-07T17:00:00+00:00</published><updated>2022-05-07T17:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/math-gists</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/math-gists/"><![CDATA[<p>Some math-related GitHub gists.</p>
 
 <ul>
-  <li>Unordered list can use asterisks</li>
-  <li>Or minuses</li>
-  <li>Or pluses</li>
+  <li><a href="https://gist.github.com/jesse-wei/a7e18d3156485dac471f1f238066cc96">Expected value/variance</a></li>
+  <li><a href="https://gist.github.com/jesse-wei/886eb8bf4f36e77430c7358e85a5c1b5">Expectation/variance helper functions</a></li>
+  <li><a href="https://gist.github.com/jesse-wei/98c22a973b8025a381c6c26983dd0a4c">Verifying that \(0!=1\) using \(\cos (x)\) Maclaurin expansion</a></li>
+  <li><a href="https://gist.github.com/jesse-wei/9fde4d5e0ace58dbf3f04f312e3bf459">Archimedean method of calculating \(\pi\)</a></li>
+  <li><a href="https://www.khanacademy.org/computer-programming/circle/4597064320155648">Unit circle animation on Khan Academy (not a GitHub gist)</a></li>
+</ul>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[Some math-related GitHub Gists.]]></summary></entry><entry><title type="html">Desmos links</title><link href="https://jesse-wei.github.io/blog/2022/desmos/" rel="alternate" type="text/html" title="Desmos links" /><published>2022-05-07T16:00:00+00:00</published><updated>2022-05-07T16:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/desmos</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/desmos/"><![CDATA[<p>Some Desmos links for learning geometric concepts.</p>
+
+<ul>
+  <li><a href="https://www.desmos.com/calculator/hndmyzbpcf">Circle graph</a></li>
+  <li><a href="https://www.desmos.com/calculator/otuhsdrrpk">Amplitude of trig functions</a></li>
+  <li><a href="https://www.desmos.com/calculator/lsqv5fbsnu">Ellipse graph</a></li>
+  <li><a href="https://www.desmos.com/calculator/69lwvvd8ax">Multiplicity of polynomial roots</a></li>
+  <li><a href="https://www.desmos.com/calculator/7kwlqhitkn">\(\sin\), \(\cos\), and \(e\)</a></li>
+  <li><a href="https://www.desmos.com/calculator/zr6zpiadri">Graphical inverse of a function</a></li>
+  <li><a href="https://www.desmos.com/calculator/te4ce0hixf">General \(\sin\)/\(\cos\) equation</a></li>
+</ul>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[Some Desmos links for learning geometric concepts.]]></summary></entry><entry><title type="html">Euler’s formula</title><link href="https://jesse-wei.github.io/blog/2022/eulers_formula/" rel="alternate" type="text/html" title="Euler’s formula" /><published>2022-05-01T16:00:00+00:00</published><updated>2022-05-01T16:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2022/eulers_formula</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2022/eulers_formula/"><![CDATA[<h2 id="proof-1-by-taylor-series">Proof 1: By <a href="https://en.wikipedia.org/wiki/Taylor_series">Taylor series</a></h2>
+
+<p>Here are the Maclaurin expansions <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> for \(\cos(x), \sin(x),\) and \(e^y\).</p>
+
+\[\begin{aligned} \cos(x) &amp;= \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n)!} x^{2n} = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots\\ \sin(x) &amp;= \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)!} x^{2n+1} = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots\\ e^y &amp;= \sum_{n=0}^{\infty} \frac{y^n}{n!} = 1 + y + \frac{y^2}{2!} + \frac{y^3}{3!} + \frac{y^4}{4!} + \cdots\\ \end{aligned}\]
+
+<p>Letting \(y = ix\), we get <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup></p>
+
+\[\begin{aligned} e^{ix} = \sum_{n=0}^{\infty} \frac{(ix)^n}{n!} = \sum_{n=0}^{\infty}i^n\frac{x^n}{n!} &amp;= 1 + ix - \frac{x^2}{2!} - i \frac{x^3}{3!} + \frac{x^4}{4!} + i \frac{x^5}{5!} - \frac{x^6}{6!} + \cdots\\ &amp;= \left(1 - \frac{x^2}{2!} + \frac{x^4}{4!} + \cdots\right) + i\left(x - \frac{x^3}{3!} + \frac{x^5}{5!} + \cdots\right)\\ &amp;= \cos(x) + i\sin(x) \quad \blacksquare \end{aligned}\]
+
+<h3 id="lemma-1-magnitude-of-expix">Lemma 1: Magnitude of <code class="language-plaintext highlighter-rouge">exp(ix)</code></h3>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Complex_number#Conjugate">magnitude</a> of \(e^{ix}\) is \(1 \quad \forall x \in \mathbb{R}\)</p>
+
+<p><em>Proof</em>. We have shown that \(e^{ix}\) is a complex number \(a+bi\), where \(a=\cos x\) and \(b=\sin x \,\). The magnitude of a complex number is its distance, on the complex plane, from \((0, 0)\). We find this distance using the distance formula.</p>
+
+\[|e^{ix}| = |\cos(x) + i\sin(x)| = \sqrt{\cos^2(x) + \sin^2(x)} = \sqrt{1} = 1 \quad \blacksquare\]
+
+<p>The significance of this result is that on the complex plane <sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>, \(e^{i\theta}\) represents a point that is a distance of one unit away from the origin \((0, 0)\). Varying \(\theta\) from \(0\) to \(2 \pi\) results in the unit circle.</p>
+
+<p>The \(\theta\) parameter measures the counterclockwise angle the point makes with the positive x axis. At this point, since we’re determining a point’s position by its angle, we should wonder how this could be connected with polar coordinates.</p>
+
+<p>A polar coordinate requires an extra parameter, \(r\). Otherwise, we are stuck with only the unit circle and can’t represent points a distance of, for example, 2 units from the origin. We simply add that parameter \(r\) by multiplying by \(r\).</p>
+
+<h3 id="lemma-2-polar-coordinates">Lemma 2: Polar coordinates</h3>
+
+<p>For all points \(x+iy\) on the complex plane, there exist \(r \in \mathbb{R}^{\geq 0}\) and \(\theta \in [0, 2 \pi)\) such that \(re^{i\theta} = r(\cos \theta + i \sin \theta) = r\cos \theta + i(r\sin \theta) = x+iy\).</p>
+
+<p>Essentially, \(re^{i\theta}\) represents a polar coordinate with radius \(r\) and angle \(\theta\) on the complex plane.</p>
+
+<h2 id="proof-2-by-differential-equation">Proof 2: By differential equation</h2>
+
+<p>Consider the following differential equation: \(\frac{df(x)}{dx} = if(x)\)</p>
+
+<p>One solution is \(f(x) = e^{ix}\) because \(\frac{d}{dx}e^{ix} = ie^{ix}\)</p>
+
+<p>Another solution is \(f(x) = \cos(x)+i\sin(x)\) because\(\frac{d}{dx}\left(\cos(x)+i\sin(x)\right) = -\sin(x)+i\cos(x) = i\left(\cos(x)+i\sin(x)\right)\)</p>
+
+<p>and both functions satisfy \(f(0) = 1\): \(f(0) = e^{i(0)} = \cos(0) + i\sin(0) = 1\)</p>
+
+<p>Hence, the functions are identical; that is, \(e^{ix} = \cos(x)+i\sin(x) \quad \blacksquare\)</p>
+
+<h3 id="lemma-3-eulers-identity">Lemma 3: Euler’s identity</h3>
+
+\[e^{\pi i} = -1\]
+
+<p><em>Proof</em>.</p>
+
+\[\begin{aligned} e^{\pi i} &amp;= \cos(\pi) + i\sin(\pi) \\ &amp;= -1 + i(0)\\ &amp;= -1\\ &amp; \blacksquare \end{aligned}\]
+
+<h3 id="lemma-4-ln-1">Lemma 4: <code class="language-plaintext highlighter-rouge">ln(-1)</code></h3>
+
+\[\ln(-1)=i \pi\]
+
+<p><em>Proof</em>. Take the natural log of both sides of Euler’s identity:</p>
+
+\[e^{\pi i} = -1 \implies \pi i = \ln(-1) \quad \blacksquare\]
+
+<p>Then, for example, \(\ln(-23) = \ln(-1) + \ln(23) = \pi i + \ln(23)\).</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>A Maclaurin series is a <a href="https://en.wikipedia.org/wiki/Taylor_series">Taylor series</a> about the point 0. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>It’s just the \(e^x\) expansion but with the powers of \(i\) \((1, i, -1, -i, 1, \ldots)\) as coefficients. We note that the only terms with \(\pm i\) will have \(n\) odd since \(i^1=-i^3=i\), and vice versa for the terms without \(i\). Also, we note that any two terms that are 2 apart will have opposite signs since they differ by \(i^2=-1\). <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>On the complex plane, the \(x\) axis represents all real numbers \(\mathbb{R}\), and the \(y\) axis represents all imaginary numbers \(bi\) for \(b \in \mathbb{R}\). <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[$$e^{ix}=\cos (x) +i \sin (x)$$. $$e^{i \pi} + 1 = 0$$.]]></summary></entry><entry><title type="html">3x3 PB: 9.04s</title><link href="https://jesse-wei.github.io/blog/2021/cubing-pb/" rel="alternate" type="text/html" title="3x3 PB: 9.04s" /><published>2021-11-26T00:00:00+00:00</published><updated>2021-11-26T00:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2021/cubing-pb</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2021/cubing-pb/"><![CDATA[<p>My current 3x3 PB is 9.04s.</p>
+
+<figure>
+
+  
+
+  <!-- Added center option -->
+  <iframe src="https://www.youtube.com/embed/QsaT23CZIpM" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto" />
+
+  
+
+</figure>
+
+<div class="caption">Reconstruction</div>
+
+<ul>
+  <li><a href="https://alg.cubing.net/?setup=F_R2_B-_L2_B_U2_R2_D2_U2_F-_R2_U_L_F_D2_L_U_R-_F&amp;alg=%2F%2F_11%2F26%2F2021_1:23_pm_9.04_pb%0Ax_y2%0AR_F2-_L2-_D__%2F%2F_cross%0AU-_L-_U2_L_U-_L-_U_L__%2F%2F_1st_pair%0AU_R_U2-_R-_U2-_f_R_f-__%2F%2F_2nd_pair%0AU2-_y-_R-_U_R__%2F%2F_3rd_pair%0Ay-_U2-_R_U2-_R-_U_R_U_R-__%2F%2F_4th_pair%0AR_U_R-_U-_R-_F_R_F-__%2F%2F_OLL(CP)%0AU-__%2F%2F_AUF">Reconstruction</a></li>
+  <li>Date: 11/26/2021 1:23 PM</li>
+  <li>Location: <a href="https://cs.unc.edu/venue/sitterson-hall/">Sitterson Hall</a> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></li>
+  <li>Cube: <a href="https://speedcubeshop.com/products/moyu-weilong-wr-m-2021-3x3-magnetic-maglev?variant=39540274364529">MoYu WeiLong WR M 2021 (MagLev)</a></li>
+  <li>Scramble: F R2 B’ L2 B U2 R2 D2 U2 F’ R2 U L F D2 L U R’ F</li>
 </ul>
 
-<p><a href="https://www.google.com">I’m an inline-style link</a></p>
-
-<p><a href="https://www.google.com" title="Google's Homepage">I’m an inline-style link with title</a></p>
-
-<p><a href="https://www.mozilla.org">I’m a reference-style link</a></p>
-
-<p><a href="../blob/master/LICENSE">I’m a relative reference to a repository file</a></p>
-
-<p><a href="http://slashdot.org">You can use numbers for reference-style link definitions</a></p>
-
-<p>Or leave it empty and use the <a href="http://www.reddit.com">link text itself</a>.</p>
-
-<p>URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <a href="http://www.example.com">http://www.example.com</a> and sometimes
-example.com (but not on Github, for example).</p>
-
-<p>Some text to show that the reference links can follow later.</p>
-
-<p>Here’s our logo (hover to see the title text):</p>
-
-<p>Inline-style:
-<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 1" /></p>
-
-<p>Reference-style:
-<img src="https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png" alt="alt text" title="Logo Title Text 2" /></p>
-
-<p>Inline <code class="language-plaintext highlighter-rouge">code</code> has <code class="language-plaintext highlighter-rouge">back-ticks around</code> it.</p>
-
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
-<span class="nf">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Python syntax highlighting</span><span class="sh">"</span>
-<span class="k">print</span> <span class="n">s</span>
-</code></pre></div></div>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-</code></pre></div></div>
-
-<p>Colons can be used to align columns.</p>
-
 <table>
   <thead>
     <tr>
-      <th>Tables</th>
-      <th style="text-align: center">Are</th>
-      <th style="text-align: right">Cool</th>
+      <th style="text-align: center">Moves</th>
+      <th style="text-align: center">Step</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>col 3 is</td>
-      <td style="text-align: center">right-aligned</td>
-      <td style="text-align: right">$1600</td>
+      <td style="text-align: center">x y2</td>
+      <td style="text-align: center">Inspection</td>
     </tr>
     <tr>
-      <td>col 2 is</td>
-      <td style="text-align: center">centered</td>
-      <td style="text-align: right">$12</td>
+      <td style="text-align: center">U’ L’ U2 L U’ L’ U L</td>
+      <td style="text-align: center">1<sup>st</sup> pair</td>
     </tr>
     <tr>
-      <td>zebra stripes</td>
-      <td style="text-align: center">are neat</td>
-      <td style="text-align: right">$1</td>
+      <td style="text-align: center">U R U2’ R’ U2’ f R f’</td>
+      <td style="text-align: center">2<sup>nd</sup> pair</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">U2’ y’ R’ U R</td>
+      <td style="text-align: center">3<sup>rd</sup> pair</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">y’ U2’ R U2’ R’ U R U R’</td>
+      <td style="text-align: center">4<sup>th</sup> pair</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">R U R’ U’ R’ F R F’</td>
+      <td style="text-align: center">OLL</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center">PLL skip</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">U’</td>
+      <td style="text-align: center">AUF</td>
     </tr>
   </tbody>
 </table>
-
-<p>There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don’t need to make the
-raw Markdown line up prettily. You can also use inline Markdown.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Markdown</th>
-      <th>Less</th>
-      <th>Pretty</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><em>Still</em></td>
-      <td><code class="language-plaintext highlighter-rouge">renders</code></td>
-      <td><strong>nicely</strong></td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>2</td>
-      <td>3</td>
-    </tr>
-  </tbody>
-</table>
-
-<blockquote>
-  <p>Blockquotes are very handy in email to emulate reply text.
-This line is part of the same quote.</p>
-</blockquote>
-
-<p>Quote break.</p>
-
-<blockquote>
-  <p>This is a very long line that will still be quoted properly when it wraps. Oh boy let’s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
-</blockquote>
-
-<p>Here’s a line for us to start with.</p>
-
-<p>This line is separated from the one above by two newlines, so it will be a <em>separate paragraph</em>.</p>
-
-<p>This line is also a separate paragraph, but…
-This line is only separated by a single newline, so it’s a separate line in the <em>same paragraph</em>.</p>]]></content><author><name>Albert Einstein</name></author><summary type="html"><![CDATA[an example of a distill-style blog post and main elements]]></summary></entry></feed>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Couch facing the printer outside COMP 110 OH room <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="cubing" /><summary type="html"><![CDATA[Details about my current 3x3 speedcubing PB (personal best).]]></summary></entry><entry><title type="html">Basic logarithm concepts</title><link href="https://jesse-wei.github.io/blog/2021/logarithms/" rel="alternate" type="text/html" title="Basic logarithm concepts" /><published>2021-11-01T16:00:00+00:00</published><updated>2021-11-01T16:00:00+00:00</updated><id>https://jesse-wei.github.io/blog/2021/logarithms</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2021/logarithms/"><![CDATA[<p>T</p>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[2 pgs]]></summary></entry></feed>
