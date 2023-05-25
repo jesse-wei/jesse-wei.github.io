@@ -2,9 +2,11 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I was a head UTA for COMP 311 and a UTA for COMP 210 and COMP 110. For my work, I received the Diane Pozefsky Learning Assistant Award.
+description: I was a head UTA for COMP 311 and a UTA for COMP 210 and COMP 110. For all classes, I held office hours and review sessions. I also created and graded assessments and assignments. I was honored to receive the Diane Pozefsky Learning Assistant Award.
 nav: true
 nav_order: 5
+# toc:
+#   sidebar: true
 ---
 
 <h3 style="color: #4b9cd3;" id="UNC"><a href="https://unc.edu">UNC</a></h3>
@@ -145,7 +147,9 @@ nav_order: 5
             I created a Git workshop for the COMP 110 hackathon Hack110.
           </div>
           <div class="col-sm-3">
-            <a href="https://docs.google.com/presentation/d/1EHSeRvvkmLQSM9iJL0GyXE-p_i4bnn7eMuCr-YWPQ_A/">Slides</a> <a href="https://github.com/comp110git/git-workshop">GitHub</a>
+            <a href="https://docs.google.com/presentation/d/1EHSeRvvkmLQSM9iJL0GyXE-p_i4bnn7eMuCr-YWPQ_A/">Slides</a>
+            <br>
+            <a href="https://github.com/comp110git/git-workshop">GitHub</a>
           </div>
         </div>
       </li>
@@ -156,7 +160,9 @@ nav_order: 5
           </div>
           <div class="col-sm-3">
             <a href="https://22s.comp110.com/explore/side-quest/sq01-pong.html">Pong</a>
+            <br>
             <a href="https://22s.comp110.com/explore/side-quest/sq00-ttt.html">Tic-Tac-Toe</a>
+            <br>
             <a href="https://22s.comp110.com/explore/pandas/exds01-cleaning.html">Data cleaning</a>
           </div>
         </div>
@@ -165,15 +171,57 @@ nav_order: 5
   </div>
 </div>
 
-<p><br></p>
-<h3 id="older-stuff">Old stuff</h3>
-<ul>
-    <li>I was a private ACT tutor Jan. 2021 - June 2022.</li>
-    <li><a href="https://docs.google.com/document/d/1p9AaWGGZ07w8vFwpbZ-Y0MmDiw9Vn2i_PkcQfsEvq88">ACT Guide</a></li>
-    <li><a href="/assets/pdf/act/Advanced_ACT_Math_Concepts.pdf">Advanced ACT Math Concepts</a> (<a href="https://www.overleaf.com/read/rhmqqyskcrwp">Source</a>)</li>
-    <li>TODO: Make pages and add links and put this in table</li>
-    <li><a href="">Notes from lessons</a></li>
-    <li><a href="">GitHub gists</a></li>
-    <li><a href="">Desmos links</a></li>
-    <li>There are several posts on my <a href="/blog">blog</a> that I wrote to supplement my lessons.</li>
-</ul>
+<br>
+
+<h3 id="self-employed">Self-employed</h3>
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 class="card-title">ACT</h5>
+        <h6 class="card-subtitle font-italic">Jan. 2021 - June 2022: Private ACT Tutor</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <!-- <span class="badge">
+          110
+        </span> -->
+      </div>
+    </div>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            I wrote an ACT guide in high school and have updated it quite a bit. I also wrote about advanced ACT Math concepts.
+          </div>
+          <div class="col-sm-3">
+            <a href="https://docs.google.com/document/d/1p9AaWGGZ07w8vFwpbZ-Y0MmDiw9Vn2i_PkcQfsEvq88">ACT Guide</a>
+            <br>
+            <a href="/assets/pdf/act/Advanced_ACT_Math_Concepts.pdf">Advanced ACT Math Concepts</a> (<a href="https://www.overleaf.com/read/rhmqqyskcrwp">Source</a>)
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            I created resources for my students and compile them on this website.
+          </div>
+          <div class="col-sm-3">
+            <a href="/blog/2022/tutoring-notes">Notes from lessons</a>
+            <a href="/blog/2022/math-gists">Math GitHub gists</a>
+            <a href="/blog/2022/desmos">Desmos links</a>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            A lot of my blog post ideas came from topics I covered during my tutoring lessons. They're quite out-of-scope for the ACT because they're for a general audience, not just ACT test-takers.
+          </div>
+          <div class="col-sm-3">
+            <a href="/blog/category/act/">Blog</a> (ACT category)
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
