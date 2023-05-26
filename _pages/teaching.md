@@ -39,7 +39,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I added and wrote the autograder for a new part of Lab 3: ALU (build ALU using circuit simulator), in which students implement flag detection for the ALU.
+            I added and wrote the autograder for a new part of the ALU implementation assignment, in which students implement flag detection in the ALU.
           </div>
         </div>
       </li>
