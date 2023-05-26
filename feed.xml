@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jesse-wei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jesse-wei.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-26T19:35:30+00:00</updated><id>https://jesse-wei.github.io/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jesse-wei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jesse-wei.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-26T19:59:39+00:00</updated><id>https://jesse-wei.github.io/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
 </subtitle><entry><title type="html">Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio</title><link href="https://jesse-wei.github.io/blog/2023/papermod/" rel="alternate" type="text/html" title="Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio" /><published>2023-05-26T00:52:00+00:00</published><updated>2023-05-26T00:52:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/papermod</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/papermod/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>I built my old site (not this one) with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and hosted on <a href="https://www.netlify.com">Netlify</a>.</p>
@@ -323,7 +323,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/papermod/social_logo.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="OpenGraph image Discord" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/papermod/social_logo.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="OpenGraph image Discord" title="OpenGraph image Discord" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -370,7 +370,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/papermod/social_logo.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="OpenGraph image Discord" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/papermod/social_logo.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="OpenGraph image Discord" title="OpenGraph image Discord" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -625,7 +625,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/papermod/code_line_nos.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Line numbers on code blocks look weird" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/papermod/code_line_nos.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Line numbers on code blocks look weird" title="Line numbers on code blocks look weird" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -725,7 +725,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/papermod/htmltest.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="htmltest GH Action output" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/papermod/htmltest.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="htmltest GH Action output" title="htmltest GH Action output" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -865,7 +865,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/sin-cos/sincos-definition.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Basic geometric definition of sine and cosine" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/sin-cos/sincos-definition.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Basic geometric definition of sine and cosine" title="Basic geometric definition of sine and cosine" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -896,7 +896,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/sin-cos/sincos-identity-90.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Geometric proof of separation by 90 degrees" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/sin-cos/sincos-identity-90.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Geometric proof of separation by 90 degrees" title="Geometric proof of separation by 90 degrees" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -941,7 +941,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/sin-cos/sincos-animation.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="A still screenshot of unit circle animation on Khan Academy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/sin-cos/sincos-animation.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="A still screenshot of unit circle animation on Khan Academy" title="A still screenshot of unit circle animation on Khan Academy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1251,7 +1251,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/pascals-triangle/pascal-binoms.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Pascal's triangle with binomial coefficients" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/pascals-triangle/pascal-binoms.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Pascal's triangle with binomial coefficients" title="Pascal's triangle with binomial coefficients" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1276,7 +1276,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/pascals-triangle/pascal-nums.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Pascal's triangle" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/pascals-triangle/pascal-nums.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Pascal's triangle" title="Pascal's triangle" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1301,7 +1301,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/pascals-triangle/pascal-mathematica.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="Mathematica code for printing Pascal's triangle using binomial theorem" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/pascals-triangle/pascal-mathematica.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Mathematica code for printing Pascal's triangle using binomial theorem" title="Mathematica code for printing Pascal's triangle using binomial theorem" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
