@@ -5,16 +5,18 @@ title: teaching
 description: I was a head UTA for COMP 311 and a UTA for COMP 210 and COMP 110. For all classes, I held office hours and review sessions. I also created and graded assessments and assignments. I was honored to receive the Diane Pozefsky Learning Assistant Award.
 nav: true
 nav_order: 5
+giscus_comments: true
 # toc:
 #   sidebar: true
 ---
 
-<h3 style="color: #4b9cd3;" id="UNC"><a href="https://unc.edu">UNC</a></h3>
+<h3 style="color: #4b9cd3;" id="unc"><a href="https://unc.edu">UNC</a></h3>
+<!-- COMP 311 (Computer Organization) -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title">Computer Organization</h5>
+        <h5 id="comp311" class="card-title">Computer Organization</h5>
         <h6 class="card-subtitle font-italic">Fall 2022 and Spring 2023: Head UTA</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -90,11 +92,12 @@ nav_order: 5
   </div>
 </div>
 
+<!-- COMP 210 (Data Structures and Analysis) -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html">Data Structures and Analysis</a></h5>
+        <h5 id="comp210" class="card-title"><a href="https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html">Data Structures and Analysis</a></h5>
         <h6 class="card-subtitle font-italic">Summer 2022: Head UTA</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -127,11 +130,12 @@ nav_order: 5
   </div>
 </div>
 
+<!-- COMP 110 (Introduction to Programming and Data Science) -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://22s.comp110.com">Introduction to Programming and Data Science</a></h5>
+        <h5 id="comp110" class="card-title"><a href="https://22s.comp110.com">Introduction to Programming and Data Science</a></h5>
         <h6 class="card-subtitle font-italic">Spring 2021, Fall 2021, Spring 2022: UTA</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -173,18 +177,14 @@ nav_order: 5
 
 <br>
 
+<!-- ACT -->
 <h3 id="self-employed">Self-employed</h3>
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title">ACT</h5>
+        <h5 id="act" class="card-title">ACT</h5>
         <h6 class="card-subtitle font-italic">Jan. 2021 - June 2022: Private ACT Tutor</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <!-- <span class="badge">
-          110
-        </span> -->
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
@@ -225,3 +225,6 @@ nav_order: 5
     </ul>
   </div>
 </div>
+
+<!-- Separation before Giscus comments -->
+<br>

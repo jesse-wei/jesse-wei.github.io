@@ -23,4 +23,4 @@ I'm a Master's student in the [Department of Computer Science](https://cs.unc.ed
 
 In 2023, I graduated early and with highest distinction from UNC with a B.S. in Mathematics and a B.S. in Computer Science. This summer, I'm a Technical Summer Intern at [Teledyne Scientific & Imaging](https://www.teledyne-si.com).
 
-I was a head UTA for COMP 311 (Computer Organization). I was also a UTA for [COMP 210](https://www.cs.unc.edu/~kakiryan/teaching/summer-210/team/team.html) (Data Structures) and [COMP 110](https://22s.comp110.com/resources/team.html) (Introduction to Programming).
+I was a head UTA for COMP 311 (Computer Organization). I was also a UTA for [COMP 210](https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html) (Data Structures) and [COMP 110](https://22s.comp110.com) (Introduction to Programming).
