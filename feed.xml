@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jesse-wei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jesse-wei.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-26T20:04:11+00:00</updated><id>https://jesse-wei.github.io/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jesse-wei.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jesse-wei.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-05-26T20:36:24+00:00</updated><id>https://jesse-wei.github.io/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
 </subtitle><entry><title type="html">Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio</title><link href="https://jesse-wei.github.io/blog/2023/papermod/" rel="alternate" type="text/html" title="Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio" /><published>2023-05-26T00:52:00+00:00</published><updated>2023-05-26T00:52:00+00:00</updated><id>https://jesse-wei.github.io/blog/2023/papermod</id><content type="html" xml:base="https://jesse-wei.github.io/blog/2023/papermod/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>I built my old site (not this one) with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and hosted on <a href="https://www.netlify.com">Netlify</a>.</p>
@@ -954,7 +954,7 @@ hugo server
 
 <h2 id="algebra">Algebra</h2>
 
-<p>There is an algebraic symmetry that is, in my opinion, as beautiful as the symmetries above. This symmetry also allows us to prove <a href="../eulers_formula/">\(e^{ix} = \cos x + i\sin x\)</a> for any \(x\).</p>
+<p>There is an algebraic symmetry that is, in my opinion, as beautiful as the symmetries above. This symmetry also allows us to prove <a href="../eulers-formula/">\(e^{ix} = \cos x + i\sin x\)</a> for any \(x\).</p>
 
 <h3 id="lemma-3-sine-and-cosine-series-expansions">Lemma 3: Sine and cosine series expansions</h3>
 
@@ -1355,7 +1355,7 @@ hugo server
       <p>Here, we can change to \((1+x)^n\) to make it look nicer, but the concept remains the same, as you can see. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:5" role="doc-endnote">
-      <p>It also means that the base, or first, value(s) have to be the same. Even if you grow in exactly the same way, you need to start at the same point to be exactly the same. This is an example of <a href="https://en.wikipedia.org/wiki/Mathematical_induction">mathematical induction</a>! For a similar example of induction, see <a href="../eulers_formula#proof-2-by-differential-equation">another post of mine</a>. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>It also means that the base, or first, value(s) have to be the same. Even if you grow in exactly the same way, you need to start at the same point to be exactly the same. This is an example of <a href="https://en.wikipedia.org/wiki/Mathematical_induction">mathematical induction</a>! For a similar example of induction, see <a href="../eulers-formula#proof-2-by-differential-equation">another post of mine</a>. <a href="#fnref:5" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
     <li id="fn:6" role="doc-endnote">
       <p>You should check that this statement does, indeed, refer to an arbitrary entry and the two entries above it. You could confirm using the \(\binom{4}{2}\) example. <a href="#fnref:6" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
