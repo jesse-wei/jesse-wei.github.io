@@ -69,7 +69,7 @@ And hopefully you've seen this before, so you know that each number in the trian
 
 Well, there's just one more thing... if we know that the combinatorial and numerical representations of the triangles are the same, then doesn't that necessarily mean that the addition property that holds for the numerical triangle holds for the binomial coefficient triangle as well? [^5] In other words, looking at the middle of the triangle, since $$3+3=6$$, $$\binom{3}{1}+\binom{3}{2}=\binom{4}{2}$$? Why?
 
-[^5]: It also means that the base, or first, value(s) have to be the same. Even if you grow in exactly the same way, you need to start at the same point to be exactly the same. This is an example of [mathematical induction](https://en.wikipedia.org/wiki/Mathematical_induction)! For a similar example of induction, see [another post of mine](../eulers_formula#proof-2-by-differential-equation).
+[^5]: It also means that the base, or first, value(s) have to be the same. Even if you grow in exactly the same way, you need to start at the same point to be exactly the same. This is an example of [mathematical induction](https://en.wikipedia.org/wiki/Mathematical_induction)! For a similar example of induction, see [another post of mine](../eulers-formula#proof-2-by-differential-equation).
 
 First, let's set up the theorem. Let $$\binom{n}{k}$$ represent the $$k^{\text{th}}$$ entry of the $$n^{\text{th}}$$ row of the binomial coefficient form of Pascal's triangle. Since each number in the numerical Pascal's triangle is the sum of the two numbers above, we claim that $$\binom{n}{k}=\binom{n-1}{k-1}+\binom{n-1}{k}$$. [^6]
 

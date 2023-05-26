@@ -68,13 +68,13 @@ giscus_comments: true
             I have written and released explanations for 150+ practice PollEverywhere (PEW) questions. In 23S, I held three review sessions for the entire course, with an average of 40 students at each review session.
           </div>
           <div class="col-sm-3">
-            <a href="/assets/pdf/comp311/Quiz1Review.pdf">Quiz1</a>
-            <a href="/assets/pdf/comp311/Quiz2Review.pdf">Quiz2</a>
-            <a href="/assets/pdf/comp311/Quiz3Review.pdf">Quiz3</a>
-            <a href="/assets/pdf/comp311/Quiz4Review.pdf">Quiz4</a>
-            <a href="/assets/pdf/comp311/Quiz5Review.pdf">Quiz5</a>
-            <a href="/assets/pdf/comp311/Quiz6Review.pdf">Quiz6</a>
-            <a href="/assets/pdf/comp311/Exam1Review.pdf">Exam1</a>
+            <a href="/assets/pdf/comp311/Quiz1Review.pdf" data-proofer-ignore>Quiz1</a>
+            <a href="/assets/pdf/comp311/Quiz2Review.pdf" data-proofer-ignore>Quiz2</a>
+            <a href="/assets/pdf/comp311/Quiz3Review.pdf" data-proofer-ignore>Quiz3</a>
+            <a href="/assets/pdf/comp311/Quiz4Review.pdf" data-proofer-ignore>Quiz4</a>
+            <a href="/assets/pdf/comp311/Quiz5Review.pdf" data-proofer-ignore>Quiz5</a>
+            <a href="/assets/pdf/comp311/Quiz6Review.pdf" data-proofer-ignore>Quiz6</a>
+            <a href="/assets/pdf/comp311/Exam1Review.pdf" data-proofer-ignore>Exam1</a>
             (These links won't work but are available on request)
           </div>
         </div>
