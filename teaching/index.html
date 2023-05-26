@@ -157,12 +157,13 @@
           </header>
 
           <article>
-            <h3 style="color: #4b9cd3;" id="UNC"><a href="https://unc.edu" rel="external nofollow noopener" target="_blank">UNC</a></h3>
+            <h3 style="color: #4b9cd3;" id="unc"><a href="https://unc.edu" rel="external nofollow noopener" target="_blank">UNC</a></h3>
+<!-- COMP 311 (Computer Organization) -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title">Computer Organization</h5>
+        <h5 id="comp311" class="card-title">Computer Organization</h5>
         <h6 class="card-subtitle font-italic">Fall 2022 and Spring 2023: Head UTA</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -238,11 +239,12 @@
   </div>
 </div>
 
+<!-- COMP 210 (Data Structures and Analysis) -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html" rel="external nofollow noopener" target="_blank">Data Structures and Analysis</a></h5>
+        <h5 id="comp210" class="card-title"><a href="https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html" rel="external nofollow noopener" target="_blank">Data Structures and Analysis</a></h5>
         <h6 class="card-subtitle font-italic">Summer 2022: Head UTA</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -275,11 +277,12 @@
   </div>
 </div>
 
+<!-- COMP 110 (Introduction to Programming and Data Science) -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title"><a href="https://22s.comp110.com" rel="external nofollow noopener" target="_blank">Introduction to Programming and Data Science</a></h5>
+        <h5 id="comp110" class="card-title"><a href="https://22s.comp110.com" rel="external nofollow noopener" target="_blank">Introduction to Programming and Data Science</a></h5>
         <h6 class="card-subtitle font-italic">Spring 2021, Fall 2021, Spring 2022: UTA</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
@@ -321,18 +324,14 @@
 
 <p><br></p>
 
+<!-- ACT -->
 <h3 id="self-employed">Self-employed</h3>
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 class="card-title">ACT</h5>
+        <h5 id="act" class="card-title">ACT</h5>
         <h6 class="card-subtitle font-italic">Jan. 2021 - June 2022: Private ACT Tutor</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <!-- <span class="badge">
-          110
-        </span> -->
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
@@ -374,11 +373,42 @@
   </div>
 </div>
 
+<!-- Separation before Giscus comments -->
+<p><br></p>
+
           </article>
 
         </div>
 
-<!-- Added disqus and gicsus from post.html -->
+<!-- Added disqus and gicsus from post.html --><div id="giscus_thread" style="max-width: 800px; margin: 0 auto;">
+  <script>
+    let giscusTheme = localStorage.getItem("theme");
+    let giscusAttributes = {
+        "src": "https://giscus.app/client.js",
+        "data-repo": "jesse-wei/jesse-wei.github.io",
+        "data-repo-id": "R_kgDOJnPCgQ",
+        "data-category": "Comments",
+        "data-category-id": "DIC_kwDOJnPCgc4CWuRs",
+        "data-mapping": "title",
+        "data-strict": "1",
+        "data-reactions-enabled": "1",
+        "data-emit-metadata": "0",
+        "data-input-position": "bottom",
+        "data-theme": giscusTheme,
+        "data-lang": "en",
+        "crossorigin": "anonymous",
+        "async": "",
+    };
+
+
+    let giscusScript = document.createElement("script");
+    Object.entries(giscusAttributes).forEach(([key, value]) => giscusScript.setAttribute(key, value));
+    document.getElementById("giscus_thread").appendChild(giscusScript);
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://giscus.app/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by giscus.</a>
+</noscript>
+</div>
+
       
     </div>
 
