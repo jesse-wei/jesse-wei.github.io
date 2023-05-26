@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://jesse-wei.github.io/news/announcement_1/</loc>
-<lastmod>2015-10-22T19:59:00+00:00</lastmod>
+<loc>https://jesse-wei.github.io/news/dplaa/</loc>
+<lastmod>2023-05-14T17:30:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://jesse-wei.github.io/news/announcement_2/</loc>
-<lastmod>2015-11-07T20:11:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://jesse-wei.github.io/news/announcement_3/</loc>
-<lastmod>2016-01-15T11:59:00+00:00</lastmod>
+<loc>https://jesse-wei.github.io/news/al-folio/</loc>
+<lastmod>2023-05-26T03:26:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://jesse-wei.github.io/blog/2021/matrix/</loc>
@@ -61,6 +57,10 @@
 <lastmod>2022-08-10T16:00:00+00:00</lastmod>
 </url>
 <url>
+<loc>https://jesse-wei.github.io/blog/2023/papermod/</loc>
+<lastmod>2023-05-26T00:52:00+00:00</lastmod>
+</url>
+<url>
 <loc>https://jesse-wei.github.io/projects/566/</loc>
 <lastmod>2022-06-12T22:08:42+00:00</lastmod>
 </url>
@@ -109,12 +109,24 @@
 <loc>https://jesse-wei.github.io/blog/tag/cubing/</loc>
 </url>
 <url>
+<loc>https://jesse-wei.github.io/blog/tag/hugo/</loc>
+</url>
+<url>
+<loc>https://jesse-wei.github.io/blog/tag/papermod/</loc>
+</url>
+<url>
 <loc>https://jesse-wei.github.io/blog/category/act/</loc>
+</url>
+<url>
+<loc>https://jesse-wei.github.io/blog/category/website/</loc>
 </url>
 <url>
 <loc>https://jesse-wei.github.io/blog/2021/</loc>
 </url>
 <url>
 <loc>https://jesse-wei.github.io/blog/2022/</loc>
+</url>
+<url>
+<loc>https://jesse-wei.github.io/blog/2023/</loc>
 </url>
 </urlset>
