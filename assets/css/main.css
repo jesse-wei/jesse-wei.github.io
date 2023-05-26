@@ -198,6 +198,11 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  /**
+   * For teaching page
+   * Source: https://maruan.alshedivat.com/assets/css/main.css
+   */
+  /* Modified --global-bg-color (the color used in Maruan's site) to --global-card-bg-color. */
 }
 .card img {
   width: 100%;
@@ -212,6 +217,15 @@ blockquote {
 .card .card-item .row {
   display: flex;
   align-items: center;
+}
+.card .list-group-item {
+  background-color: var(--global-card-bg-color);
+  border-color: var(--global-divider-color);
+}
+.card .badge {
+  background-color: var(--global-theme-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .citation,
@@ -911,22 +925,6 @@ nav[data-toggle=toc] .nav-link.active:hover {
 }
 .post .post-content blockquote.block-danger h1, .post .post-content blockquote.block-danger h2, .post .post-content blockquote.block-danger h3, .post .post-content blockquote.block-danger h4, .post .post-content blockquote.block-danger h5, .post .post-content blockquote.block-danger h6 {
   color: var(--global-danger-block-title);
-}
-
-/**
- * Teaching
- * Source: https://maruan.alshedivat.com/assets/css/main.css
- */
-/* Modified --global-bg-color to --global-card-bg-color */
-.card .list-group-item {
-  background-color: var(--global-card-bg-color);
-  border-color: var(--global-divider-color);
-}
-
-.card .badge {
-  background-color: var(--global-theme-color);
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 /*******************************************************************************
