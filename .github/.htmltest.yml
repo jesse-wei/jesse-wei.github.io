@@ -1,6 +1,8 @@
 # Configuration file for .github/workflows/ci.yml
 
 DirectoryPath: "_site"
+# Jekyll's directory structure triggers this:
+IgnoreDirectoryMissingTrailingSlash: true
 
 # This does not "ignore" the broken links, but it does not fail the action
 # From the htmltest README:
