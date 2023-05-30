@@ -2,7 +2,7 @@
 layout: post
 title: "Tutoring notes for the ACT®"
 date: 2022-06-04T12:00:00-04:00
-description: "Notes from ACT tutoring sessions."
+description: "Notes from my tutoring sessions."
 categories: act
 tags: math
 giscus_comments: true

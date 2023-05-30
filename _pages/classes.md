@@ -29,7 +29,7 @@ I ask that you not give the link to this page to others without my permission ([
 | :---: | :-------: | :---: | :------: |
 |<a href="https://20f.comp110.com" data-proofer-ignore>COMP 110: Introduction to Programming</a> (3)|[Kristopher Jordan](https://krisjordan.com)|A|The start of my CS major pipeline...|
 |MATH 233: Calculus of Functions of Several Variables (4)|Elizabeth McLaughlin|A|Grade grubbed the A ngl... got a regrade on one question on the final exam, and it made the difference.|
-|MATH 381: Discrete Mathematics (3)|Chad Kelterborn|A|Truly a Chad. I mention him in the footer of [Advanced ACT Math Concepts](/assets/pdf/act/Advanced_ACT_Math_Concepts.pdf) (pg. 15).|
+|MATH 381: Discrete Mathematics (3)|Chad Kelterborn|A|Truly a Chad. I mention him in the footer of [Advanced ACT Math Concepts](/assets/pdf/act/Advanced_Math_Concepts_for_the_ACT.pdf) (pg. 15).|
 |EDUC 101: First Year Thriving (2)|Charles Midthun|A|Only took it because some email said freshmen had to take some bogus classes. Not sure what would've happened if I didn't take it.|
 |SPHG 101: Exploring Public Health Fields (1)|Gregory Bocchino|PS|Pass/fail only class. BS class, same as EDUC 101.|
 
