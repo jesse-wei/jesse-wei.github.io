@@ -194,7 +194,7 @@ giscus_comments: true
             I wrote a guide to the ACT in high school and have updated it quite a bit. I also wrote about advanced math concepts on the ACT.
           </div>
           <div class="col-sm-3">
-            <a href="https://docs.google.com/document/d/1p9AaWGGZ07w8vFwpbZ-Y0MmDiw9Vn2i_PkcQfsEvq88">Jesse's Guide to the ACT®</a>
+            Jesse's Guide to the ACT® (down due to copyright notice)
             <br>
             <a href="/assets/pdf/act/Advanced_Math_Concepts_for_the_ACT.pdf">Advanced Math Concepts for the ACT®</a> (<a href="https://www.overleaf.com/read/rhmqqyskcrwp">Source</a>)
           </div>
