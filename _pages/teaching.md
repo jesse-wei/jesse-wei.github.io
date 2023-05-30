@@ -191,12 +191,12 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I wrote an ACT guide in high school and have updated it quite a bit. I also wrote about advanced ACT Math concepts.
+            I wrote a guide to the ACT in high school and have updated it quite a bit. I also wrote about advanced math concepts on the ACT.
           </div>
           <div class="col-sm-3">
-            <a href="https://docs.google.com/document/d/1p9AaWGGZ07w8vFwpbZ-Y0MmDiw9Vn2i_PkcQfsEvq88">ACT Guide</a>
+            <a href="https://docs.google.com/document/d/1p9AaWGGZ07w8vFwpbZ-Y0MmDiw9Vn2i_PkcQfsEvq88">Jesse's Guide to the ACT®</a>
             <br>
-            <a href="/assets/pdf/act/Advanced_ACT_Math_Concepts.pdf">Advanced ACT Math Concepts</a> (<a href="https://www.overleaf.com/read/rhmqqyskcrwp">Source</a>)
+            <a href="/assets/pdf/act/Advanced_ACT_Math_Concepts.pdf">Advanced Math Concepts for the ACT®</a> (<a href="https://www.overleaf.com/read/rhmqqyskcrwp">Source</a>)
           </div>
         </div>
       </li>
