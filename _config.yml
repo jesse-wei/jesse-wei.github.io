@@ -109,8 +109,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: 175082465671512064 # your discord id (18-digit unique numerical identifier)
 
-contact_note: >
-  Feel free to add me on Discord! It's my preferred method of communication.
+contact_note:
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
