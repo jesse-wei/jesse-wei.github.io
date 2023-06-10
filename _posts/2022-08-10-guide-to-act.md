@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Jesse's Guide to the ACT®"
+title: "Guide to the ACT®"
 date: 2022-08-10T11:00:00-04:00
-description: "20 pgs"
+description: "Comprehensive guide for the ACT, including how to study and specific tips for the test. Back and heavily improved after being taken down due to copyright strike."
 categories: act
 giscus_comments: true
 related_posts: true
@@ -14,11 +14,11 @@ toc:
 
 ## Introduction
 
-My relevant credentials: I studied for the ACT using only free resources and scored a [36](https://drive.google.com/file/d/1H6aFuEPKvbsZlgWtR2-lMSE_7sr83XcS/view?usp=sharing) on my first try. I also privately tutored for a while, and you can see my [blog](/blog/category/act) for the ACT-related stuff I've written. I don't tutor anymore, and I'm not trying to sell you anything. This guide is purely to help you get the score you want fast and without needing to spend any money.
+My relevant credentials: I studied for the ACT using only free resources and scored a [36](https://drive.google.com/file/d/1H6aFuEPKvbsZlgWtR2-lMSE_7sr83XcS/view?usp=sharing) on my first try. I also privately tutored for a while, and you can see my [blog](/blog/category/act) for the ACT-related stuff I've written. I don't tutor anymore, and I'm not trying to sell you anything - this guide is purely to help you get the score you want fast and without needing to spend any money.
 
-I created this document in high school because lots of people had asked me about how I studied for the ACT. You might’ve heard of tutors and textbooks that cost a small fortune, but you can study as effectively as possible without spending any money. The best ACT resources are available online for free.
+You might’ve heard of tutors and textbooks that cost a small fortune, but you can study as effectively as possible without spending any money. The best ACT resources are available online for free.
 
-The most important section of this guide is [Resources](#resources), specifically the section [Official tests](#official-tests). My #1 piece of advice throughout the years has been that you must use **official (previously administered) tests** to prep, and don't waste your time on crap (third-party) practice questions. If that’s the only thing you take away from this guide, you’ll have gained ~51% of what it has to offer.
+The most important part of this guide is [Resources](#resources), specifically the subpart [Official tests](#official-tests). My #1 piece of advice throughout the years has been that you must use **official (previously administered) tests** to prep, and don't waste your time on crap (third-party) practice questions. If that’s the only thing you take away from this guide, you’ll have gained ~51% of what it has to offer.
 
 Due to a copyright claim from ACT, Inc., examples in this guide involving copyrighted ACT content have been removed or replaced. Specifically, I had to take down a link to a Google Drive containing previously administered tests from the past two decades. However, I cannot stress enough that you must use official ACT tests to prep.
 
@@ -41,11 +41,13 @@ Since the ACT has such strict time constraints, it's important to know the numbe
 |Reading|40|35 min|
 |Science|40|35 min|
 
+<br>
+
 ### Basics
 
-English and Math are **content-oriented**. This means each question is created to cover specific grammar/math topic(s) that you should've learned in school. If you don't understand the topic(s) that an English/Math question is testing, then you have to guess.
+English and Math are **content-oriented**. This means each question is created to cover specific grammar/math topic(s) that you should've learned in school. If you don't understand the topic(s) that an English/Math question is testing, then you'd have to guess.
 
-Reading and Science are **skill-oriented**. Certainly Reading can't test you on content of specific books, and Science rarely tests actual science topics (i.e., usually 1 or 2 questions out of 40). These sections do not test "topics." Instead, they test your ability to absorb new content and answer questions about it quickly. Another way to put it: all answers to all Reading and *most* Science questions are in the passages and figures.
+Reading and Science are **skill-oriented**. Certainly Reading can't test you on content of specific books, and Science rarely tests any actual science knowledge (i.e., usually 1 or 2 questions out of 40). These sections do not test "topics." Instead, they test your ability to absorb new content and answer questions about it quickly. Another way to put it: all answers to all Reading and *most* Science questions are in the passages and figures.
 
 Reading tests you with fiction, social studies, humanities, and natural science passages, and Science tests you with scientific passages and figures (graphs, tables, charts, etc.). On the surface, Reading and Science might seem quite different, but the skills they test are actually quite similar.
 
@@ -75,7 +77,7 @@ For Reading and Science, you should read about some high-level strategies that w
 
 Notice the differences above. For English and Math, if you don't already have a solid understanding of the basic concepts, then you should spend a lot of time learning those concepts before grinding out practice tests.
 
-For Reading and Science, however, it should only take a small amount of time to introduce yourself to some high-level tips and strategies. Then you should immediately start grinding out practice tests to practice with those strategies.
+For Reading and Science, however, it should take only a small amount of time to introduce yourself to some high-level tips and strategies. Then you should immediately start grinding out practice tests to practice with those strategies.
 
 In either case, once you have a solid grasp of the basics (for English and Math, grammar and math concepts; for Reading and Science, general strategies for the sections), you should grind out practice tests with the goal of improving your general test-taking skills.
 
@@ -87,6 +89,8 @@ In either case, once you have a solid grasp of the basics (for English and Math,
 |Math|Mostly algebra 1-3 with a few precalculus topics|[PrepScholar - What's Actually Tested On ACT Math](https://blog.prepscholar.com/whats-tested-on-act-math-concepts-subjects-and-skills)|
 |Reading|N/A|N/A|
 |Science|Only a bit of actual science content|[PrepScholar - The Only Actual Science You Have to Know for ACT Science](https://blog.prepscholar.com/the-only-actual-science-you-have-to-know-for-act-science)|
+
+<br>
 
 As mentioned in [Basics](#basics), Reading and Science don't really test specific topics since they're **skill-oriented**, so I mostly omit those rows in the table above. Reading tests your reading comprehension under time pressure, and I consider Science to be Reading part 2, except with data and figures: graphs, charts, tables, etc. It tests reading and data comprehension in the context of scientific passages and figures.
 
@@ -131,7 +135,7 @@ If you do this enough, you should be able to find trends in the mistakes you mak
 
 This section contains specific tips for each section of the ACT. Since I personally used many of the ACT textbooks in [Resources](#textbooks-and-websites), this section consists of the high points of those textbooks (though I suggest that you read them for more tips) and my own tips that I learned from experience.
 
-The strategies I describe are ones that worked for me and my students. Although I believe they're optimal and would work well for most people, there may be better strategies for you.
+The strategies I describe are ones that worked for me and my students. Although I believe they're optimal, there may be better strategies for you.
 
 ### General
 
@@ -175,6 +179,8 @@ Any $$x^4y^4$$ term that appears in the polynomial expansion comes from choosing
 The number of ways for this to occur is equal to $$\binom{8}{4}$$, the number of ways to choose an unordered group of 4 from 8.
 
 Thus, this problem reduces to computing $$\binom{8}{4}=\frac{8!}{4!4!}=70$$.
+
+More details in my article about [Pascal's triangle](/blog/2022/pascals-triangle/).
 
 If this explanation doesn’t quite click, that's okay. Maybe your understanding of combinatorics is a bit shaky - combinatorics generally isn’t covered well in high school. What matters is that you see that this is not an unsolvable hard question. It’s just one that has a “trick.” This applies to all “hard” questions on the ACT. As an aside, this also applies in general to math in school, in my experience, having gone through high school and college (undergraduate) math. See the article [Why It's So Important To Learn A Problem-Solving Approach To Mathematics](https://artofproblemsolving.com/blog/articles/learn-problem-solving-approach-to-mathematics).
 
@@ -226,7 +232,7 @@ While skimming, you should not read overly carefully. Your goals should be getti
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/act/guide/waldo.jpg" title="Where's Waldo" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/act/guide/waldo.jpg" title="Where's Waldo" class="img-fluid rounded z-depth-1" center=1 %}
     </div>
 </div>
 
@@ -254,7 +260,7 @@ While skimming, you should not read overly carefully. Your goals should be getti
 |x and y-axes labels|The words to the side of the axes|
 |Answer choices|Sometimes, the answer choices can give clues to your answer.|
 
-These tables are from For The Love of ACT Science.
+<div class="caption">From <em>For The Love of ACT Science</em></div>
 
 * When doing the questions, you should not go back to the passage without a purpose. Use these locators to determine what your purpose is.
 * Some people like to skip the passages and data and immediately go to the questions. This is much more viable than doing so in the Reading section since Science provides more locators than does Reading, but it's not my personal preference. Personally, I prefer to skim the passage fast to get an idea of what's going on, but use whatever approach works better for you.
@@ -296,7 +302,7 @@ In the past, I provided a link here to a Google Drive folder containing previous
 
 Lots of smart people provide free tutoring here. You can ask for resources and help in these places, and you'll probably get a response within 10 minutes.
 
-### Textbooks and Websites
+### Textbooks and websites
 
 If you do not want to purchase these textbooks, you can find them online. [https://www.google.com/search?q=libgen](https://www.google.com/search?q=libgen)
 
@@ -316,6 +322,8 @@ For textbooks, I provide links to Amazon, where you can get the ISBN, but note t
 |Writing|[VB's Guide to the ACT Essay](https://docs.google.com/document/d/1pGgXi-fEEwbJr0Qdp5OzRkSsWnXr0IklTvFRSiZsCpw/edit?usp=sharing)|Written by someone who scored an 11/12, a 99 percentile score.|
 ||[ACT Writing rubric](http://www.act.org/content/dam/act/unsecured/documents/Writing-Test-Scoring-Rubric.pdf)|Make sure to "engage with the other perspectives."|
 ||[PrepScholar - How Does ACT Essay Length Affect Your Score](https://blog.prepscholar.com/how-does-act-essay-length-affect-your-score)|TL;DR Essay length is positively correlated with score - read the article for possible explanations.|
+
+<br>
 
 ### How to study math
 
