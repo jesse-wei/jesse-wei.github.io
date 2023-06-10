@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T22:51:04+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T22:51:32+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
 </subtitle><entry><title type="html">Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio</title><link href="https://jessewei.dev/blog/2023/papermod/" rel="alternate" type="text/html" title="Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio" /><published>2023-05-26T00:52:00+00:00</published><updated>2023-05-26T00:52:00+00:00</updated><id>https://jessewei.dev/blog/2023/papermod</id><content type="html" xml:base="https://jessewei.dev/blog/2023/papermod/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>I built my old site (not this one) with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and hosted on <a href="https://www.netlify.com">Netlify</a>.</p>
@@ -1171,7 +1171,7 @@ hugo server
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/guide/waldo.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Where's Waldo" title="Where's Waldo" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/guide/waldo.jpg" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Where's Waldo" title="Where's Waldo" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1460,7 +1460,7 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/sin-cos/sincos-definition.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Basic geometric definition of sine and cosine" title="Basic geometric definition of sine and cosine" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/sin-cos/sincos-definition.jpg" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Basic geometric definition of sine and cosine" title="Basic geometric definition of sine and cosine" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1491,7 +1491,7 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/sin-cos/sincos-identity-90.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Geometric proof of separation by 90 degrees" title="Geometric proof of separation by 90 degrees" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/sin-cos/sincos-identity-90.jpg" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Geometric proof of separation by 90 degrees" title="Geometric proof of separation by 90 degrees" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1536,7 +1536,7 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/sin-cos/sincos-animation.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="A still screenshot of unit circle animation on Khan Academy" title="A still screenshot of unit circle animation on Khan Academy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/sin-cos/sincos-animation.jpg" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="A still screenshot of unit circle animation on Khan Academy" title="A still screenshot of unit circle animation on Khan Academy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1848,7 +1848,7 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/pascals-triangle/pascal-binoms.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Pascal's triangle with binomial coefficients" title="Pascal's triangle with binomial coefficients" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/pascals-triangle/pascal-binoms.jpg" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Pascal's triangle with binomial coefficients" title="Pascal's triangle with binomial coefficients" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1873,7 +1873,7 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/pascals-triangle/pascal-nums.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Pascal's triangle" title="Pascal's triangle" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/pascals-triangle/pascal-nums.jpg" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Pascal's triangle" title="Pascal's triangle" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -1898,7 +1898,7 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/act/pascals-triangle/pascal-mathematica.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Mathematica code for printing Pascal's triangle using binomial theorem" title="Mathematica code for printing Pascal's triangle using binomial theorem" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/act/pascals-triangle/pascal-mathematica.jpg" style="display: block; margin: 0 auto;" class="img-fluid rounded z-depth-1" width="auto" height="auto" alt="Mathematica code for printing Pascal's triangle using binomial theorem" title="Mathematica code for printing Pascal's triangle using binomial theorem" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
