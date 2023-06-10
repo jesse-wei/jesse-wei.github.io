@@ -16,6 +16,7 @@
     <!-- Fallback to the original file -->
     <img 
       src="{{ include.path | relative_url }}"
+      {% if include.center == 1 %} style="display: block; margin: 0 auto;" {% endif %}
       {% if include.class %}class="{{ include.class }}"{% endif %}  
       {% if include.width %}width="{{ include.width }}"{% else %}width="auto"{% endif %} 
       {% if include.height %}height="{{ include.height }}"{% else %}height="auto"{% endif %} 
