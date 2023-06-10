@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jesse's Guide to the ACT<sup>®</sup>"
+title: "Jesse's Guide to the ACT®"
 date: 2022-08-10T11:00:00-04:00
 description: "20 pgs"
 categories: act
@@ -14,13 +14,13 @@ toc:
 
 ## Introduction
 
-My relevant credentials: I studied for the ACT<sup>®</sup> using only free resources and scored a [36](https://drive.google.com/file/d/1H6aFuEPKvbsZlgWtR2-lMSE_7sr83XcS/view?usp=sharing) on my first try. I also privately tutored for a while, and you can see my [blog](/blog/category/act) for the ACT<sup>®</sup>-related stuff I've written. I don't tutor anymore, and I'm not trying to sell you anything. This guide is purely to help you get the score you want fast and without needing to spend any money.
+My relevant credentials: I studied for the ACT using only free resources and scored a [36](https://drive.google.com/file/d/1H6aFuEPKvbsZlgWtR2-lMSE_7sr83XcS/view?usp=sharing) on my first try. I also privately tutored for a while, and you can see my [blog](/blog/category/act) for the ACT-related stuff I've written. I don't tutor anymore, and I'm not trying to sell you anything. This guide is purely to help you get the score you want fast and without needing to spend any money.
 
-I created this document in high school because lots of people had asked me about how I studied for the ACT<sup>®</sup>. You might’ve heard of tutors and textbooks that cost a small fortune, but you can study as effectively as possible without spending any money. The best ACT<sup>®</sup> resources are available online for free.
+I created this document in high school because lots of people had asked me about how I studied for the ACT. You might’ve heard of tutors and textbooks that cost a small fortune, but you can study as effectively as possible without spending any money. The best ACT resources are available online for free.
 
 The most important section of this guide is [Resources](#resources), specifically the section [Official tests](#official-tests). My #1 piece of advice throughout the years has been that you must use **official (previously administered) tests** to prep, and don't waste your time on crap (third-party) practice questions. If that’s the only thing you take away from this guide, you’ll have gained ~51% of what it has to offer.
 
-Due to a copyright claim from ACT, Inc., examples in this guide involving copyrighted ACT<sup>®</sup> content have been removed or replaced. Specifically, I had to take down a link to a Google Drive containing previously administered tests from the past two decades. However, I cannot stress enough that you must use official ACT<sup>®</sup> tests to prep.
+Due to a copyright claim from ACT, Inc., examples in this guide involving copyrighted ACT content have been removed or replaced. Specifically, I had to take down a link to a Google Drive containing previously administered tests from the past two decades. However, I cannot stress enough that you must use official ACT tests to prep.
 
 ## Study plan
 
@@ -32,7 +32,7 @@ You should first familiarize yourself with the test format.
 
 Read [PrepScholar - ACT Format: Expert Guide](https://blog.prepscholar.com/act-format-expert-guide) for a quick breakdown.
 
-Since the ACT<sup>®</sup> has such strict time constraints, it's important to know the number of questions per section, time per section, and time per question.
+Since the ACT has such strict time constraints, it's important to know the number of questions per section, time per section, and time per question.
 
 | Section | # Questions | Time |
 | :-----: | :---------: | :--: |
@@ -59,13 +59,13 @@ For English and Math, you have to understand the basic concepts before grinding 
 
 To figure out which English and Math concepts you don't understand, you should take one or two practice tests. Write down what you missed, and figure out the specific topics you need to learn. If you missed question 3, is it because you didn't understand the topic(s) it was testing? If so, which topic(s)?
 
-I want to note that it can be hard to figure out which topic is tested if you don't already know the topic. You don't know what you don't know. In that case, Googling the question is often helpful, and if that doesn't work, you should ask someone. See [ACT communities](#act-communities) for links to the ACT<sup>®</sup> Discord server and ACT<sup>®</sup> subreddit.
+I want to note that it can be hard to figure out which topic is tested if you don't already know the topic. You don't know what you don't know. In that case, Googling the question is often helpful, and if that doesn't work, you should ask someone. See [ACT communities](#act-communities) for links to the ACT Discord server and ACT subreddit.
 
 Then you should learn these concepts. [Resources](#textbooks-and-websites) are provided below.
 
 Once you've learned all or nearly all of the basic concepts, you should have at least a 30. This is only a heuristic. It's up to you whether you think you have a solid understanding of the basic concepts, and if you already do, then you should move on to the next step.
 
-Once you understand the basic concepts, the rest of the points will come from grinding out practice tests to improve at taking the ACT<sup>®</sup> (general test-taking skills, learning patterns in the questions, etc.). That is, your focus should no longer be on learning new content, though if you come across something you don't know (which shouldn't happen often at this stage), you should obviously learn it. Your focus at this point should be your test-taking skills: answering questions faster, not making careless mistakes, etc. If you know the concept but still got the question wrong, then why did that happen, and how can you fix it?
+Once you understand the basic concepts, the rest of the points will come from grinding out practice tests to improve at taking the ACT (general test-taking skills, learning patterns in the questions, etc.). That is, your focus should no longer be on learning new content, though if you come across something you don't know (which shouldn't happen often at this stage), you should obviously learn it. Your focus at this point should be your test-taking skills: answering questions faster, not making careless mistakes, etc. If you know the concept but still got the question wrong, then why did that happen, and how can you fix it?
 
 #### Reading and Science
 
@@ -94,7 +94,7 @@ Each Science section does have 1-3 questions that require actual science knowled
 
 ## Advice for learning concepts
 
-* If you have questions, you should ask in the ACT<sup>®</sup> Discord server or ACT<sup>®</sup> subreddit (see [ACT communities](#act-communities)). There are plenty of smart people there who are willing to help. You might also consider a private tutor.
+* If you have questions, you should ask in the ACT Discord server or ACT subreddit (see [ACT communities](#act-communities)). There are plenty of smart people there who are willing to help. You might also consider a private tutor.
 * If you can tell that you're seriously struggling with some topic, then you should learn that topic from scratch. Choose good resource(s), and read everything about that topic. Otherwise, if you have a good baseline of knowledge, you might want to skim to selectively fill in the gaps. In general, be smart about how you study.
 * Keep track of your strengths and weaknesses. You should spend more time on your weaknesses than on your strengths, of course.
 * How much time you should spend on studying a particular topic should depend on how often it appears on the exam and how well you understand that topic already.
@@ -129,21 +129,21 @@ If you do this enough, you should be able to find trends in the mistakes you mak
 
 ## Specific tips
 
-This section contains specific tips for each section of the ACT<sup>®</sup>. Since I personally used many of the ACT<sup>®</sup> textbooks in [Resources](#websites-and-textbooks), this section consists of the high points of those textbooks (though I suggest that you read them for more tips) and my own tips that I learned from experience.
+This section contains specific tips for each section of the ACT. Since I personally used many of the ACT textbooks in [Resources](#websites-and-textbooks), this section consists of the high points of those textbooks (though I suggest that you read them for more tips) and my own tips that I learned from experience.
 
 The strategies I describe are ones that worked for me and my students. Although I believe they're optimal and would work well for most people, there may be better strategies for you.
 
 ### General
 
-* Here's one of the big secrets you should know (and there aren't many): **There are no hard questions**. A standardized test, by definition, is a test created based on standards that are the same for everyone in the U.S. For example, the ACT<sup>®</sup> can't test calculus or advanced statistics on the math section because not everyone has access to calculus and advanced statistics courses. The math section is limited to concepts everyone should have learned in high school. As such, there are no hard problems that you are incapable of figuring out as long as you understand the [basic concepts](#basics). It's important to keep in mind that you can always solve any Reading or Science question, and same for English and Math as long as you understand the basic concept(s) that question is testing.
-  * One way the ACT<sup>®</sup> imposes difficulty is by imposing strict time limits. Even if you understand all of the basic concepts so that you could solve every question, perhaps you haven't practiced enough to be able to solve every question quickly.
-  * Additionally, the ACT<sup>®</sup> tests basic knowledge, such as precalculus and below for math, in ways you may not be familiar with. I show an example of this in the [math section below](#math).
-* Here's another big secret: Every question and correct answer must be **bulletproof*. This means that there must always be one unambiguously correct answer to every question. If there were more than one correct answer or even no correct answer, students would complain to the ACT<sup>®</sup> about their scores, and that’s something that ACT, Inc. doesn't want to deal with.
-  * How can you apply this knowledge? Well, now you know that no matter how much the ACT<sup>®</sup> questions use terms like “most likely” and “best answer,” there is only one correct answer, and all other choices are wrong. If you’re having trouble finding the right answer, look for the hole(s) in the incorrect answers; it’s guaranteed that there are hole(s) in every incorrect answer and no holes in the correct answer.
+* Here's one of the big secrets you should know (and there aren't many): **There are no hard questions**. A standardized test, by definition, is a test created based on standards that are the same for everyone in the U.S. For example, the ACT can't test calculus or advanced statistics on the math section because not everyone has access to calculus and advanced statistics courses. The math section is limited to concepts everyone should have learned in high school. As such, there are no hard problems that you are incapable of figuring out as long as you understand the [basic concepts](#basics). It's important to keep in mind that you can always solve any Reading or Science question, and same for English and Math as long as you understand the basic concept(s) that question is testing.
+  * One way the ACT imposes difficulty is by imposing strict time limits. Even if you understand all of the basic concepts so that you could solve every question, perhaps you haven't practiced enough to be able to solve every question quickly.
+  * Additionally, the ACT tests basic knowledge, such as precalculus and below for math, in ways you may not be familiar with. I show an example of this in the [math section below](#math).
+* Here's another big secret: Every question and correct answer must be **bulletproof*. This means that there must always be one unambiguously correct answer to every question. If there were more than one correct answer or even no correct answer, students would complain to the ACT about their scores, and that’s something that ACT, Inc. doesn't want to deal with.
+  * How can you apply this knowledge? Well, now you know that no matter how much the ACT questions use terms like “most likely” and “best answer,” there is only one correct answer, and all other choices are wrong. If you’re having trouble finding the right answer, look for the hole(s) in the incorrect answers; it’s guaranteed that there are hole(s) in every incorrect answer and no holes in the correct answer.
   * And don’t think like this either: “Well, this answer choice seems alright, but this other answer choice also seems ok.” That’s the wrong way to go about it. One of those is 100% right (assuming that you haven’t eliminated the right answer choice), and the other one is 100% wrong. This is a black-and-white test.
-* One last secret: For all sections (yes, even and especially in ACT<sup>®</sup> Math), you need to **read very precisely**. In all sections, there are questions that include words or short phrases that you must consider to answer the question correctly. These important phrases can also be found in the passages. You must learn to read fast enough to meet the strict time constraints but also precisely enough that you don’t glance over important details.
+* One last secret: For all sections (yes, even and especially in ACT Math), you need to **read very precisely**. In all sections, there are questions that include words or short phrases that you must consider to answer the question correctly. These important phrases can also be found in the passages. You must learn to read fast enough to meet the strict time constraints but also precisely enough that you don’t glance over important details.
 * If you notice that you’re spending too much time on a single question, skip it because all questions are worth the same, regardless of difficulty. I usually work through about 90% of the questions on my first pass and then answer the rest on my second pass.
-* Bubble your answers efficiently. Efficient bubbling could save up to 2 minutes, roughly, and since you’re allowed only 35 minutes for both ACT<sup>®</sup> Reading and ACT<sup>®</sup> Science, that time is incredibly valuable. Doing a question in the test booklet and then bubbling in the answer immediately afterward wastes a lot of time because it requires that you physically move your hand over to the answer form and mentally switch tasks for every question. I find it much more efficient to complete an entire section and bubble all of my answers for that section in at the end of my first pass. Then, I'll do the unfinished questions during my second pass and bubble those in.
+* Bubble your answers efficiently. Efficient bubbling could save up to 2 minutes, roughly, and since you’re allowed only 35 minutes for both ACT Reading and ACT Science, that time is incredibly valuable. Doing a question in the test booklet and then bubbling in the answer immediately afterward wastes a lot of time because it requires that you physically move your hand over to the answer form and mentally switch tasks for every question. I find it much more efficient to complete an entire section and bubble all of my answers for that section in at the end of my first pass. Then, I'll do the unfinished questions during my second pass and bubble those in.
   * Of course, you could end up misbubbling, which could make you misbubble all succeeding answers as well. I prevent this by mentally telling myself, “1 is A, 2 is B, 3 is C…”
   * I bubbled like this for 8 practice tests and misbubbled only once (for a single question).
 * Process of elimination is obviously very useful. On most questions, there are one or two blatantly incorrect answers. On hard questions in which you have trouble deciding on the correct answer, eliminate those first.
@@ -151,8 +151,8 @@ The strategies I describe are ones that worked for me and my students. Although 
 
 ### English
 
-* If you are not satisfied with your English score, you’re in luck! The general consensus is that ACT<sup>®</sup> English is the easiest section to improve in because it is mostly just grammar rules.
-* ACT<sup>®</sup> English is heavily based on grammar rules. Learn all the grammar rules tested by the ACT<sup>®</sup>, and ingrain them into your memory by applying those grammar rules in your daily life, your writing, and in your English classes. You can also improve your grammar by reading formal books and articles that use proper grammar.
+* If you are not satisfied with your English score, you’re in luck! The general consensus is that ACT English is the easiest section to improve in because it is mostly just grammar rules.
+* ACT English is heavily based on grammar rules. Learn all the grammar rules tested by the ACT, and ingrain them into your memory by applying those grammar rules in your daily life, your writing, and in your English classes. You can also improve your grammar by reading formal books and articles that use proper grammar.
 * Conciseness is key. For questions that test conciseness (e.g., questions for which every answer choice is grammatically correct, and the only difference is conciseness), choose the shortest answer choice.
 * Avoid redundancy. If the answer choice repeats something that was previously stated, it is incorrect.
 * Take context into account. For many questions, the correct answer is decided not only by the sentence the underlined phrase is in, but also the preceding or succeeding sentence.
@@ -162,7 +162,7 @@ The strategies I describe are ones that worked for me and my students. Although 
 
 ### Math
 
-* I previously mentioned that there are no hard questions on the ACT<sup>®</sup>, and "hard" questions are really just questions involving basic concepts that are tested weirdly. For example, consider this question:
+* I previously mentioned that there are no hard questions on the ACT, and "hard" questions are really just questions involving basic concepts that are tested weirdly. For example, consider this question:
 
 > When $$(x+y)^8$$ is expanded, what is the coefficient of the $$x^4y^4$$ term?
 
@@ -176,7 +176,7 @@ The number of ways for this to occur is equal to $$\binom{8}{4}$$, the number of
 
 Thus, this problem reduces to computing $$\binom{8}{4}=\frac{8!}{4!4!}=70$$.
 
-If this explanation doesn’t quite click, that's okay. Maybe your understanding of combinatorics is a bit shaky - combinatorics generally isn’t covered well in high school. What matters is that you see that this is not an unsolvable hard question. It’s just one that has a “trick.” This applies to all “hard” questions on the ACT<sup>®</sup>. As an aside, this also applies in general to math in school, in my experience, having gone through high school and college (undergraduate) math. See the article [Why It's So Important To Learn A Problem-Solving Approach To Mathematics](https://artofproblemsolving.com/blog/articles/learn-problem-solving-approach-to-mathematics).
+If this explanation doesn’t quite click, that's okay. Maybe your understanding of combinatorics is a bit shaky - combinatorics generally isn’t covered well in high school. What matters is that you see that this is not an unsolvable hard question. It’s just one that has a “trick.” This applies to all “hard” questions on the ACT. As an aside, this also applies in general to math in school, in my experience, having gone through high school and college (undergraduate) math. See the article [Why It's So Important To Learn A Problem-Solving Approach To Mathematics](https://artofproblemsolving.com/blog/articles/learn-problem-solving-approach-to-mathematics).
 
 * For "hard" questions like the previous, of which there are relatively few, you need only notice one or two small details and then apply basic concept(s). There will never be a question that uses an advanced concept that was never covered in high school.
 * If your answer is not an answer choice, that means you did something wrong, so you need to check your work and look for the mistake.
@@ -214,7 +214,7 @@ While skimming, you should not read overly carefully. Your goals should be getti
 
 * While answering questions, on the other hand, you need to read relevant portion(s) of the passage very carefully and precisely.
 * Specifically, take in all important information in the question and in the relevant portion(s), but don't jump to any of your own conclusions.
-  * We're conditioned in English classes to infer and look for deeper meanings. However, inferences and interpretations are subjective, wheras the ACT<sup>®</sup> is an objective test with bulletproof questions and answers. All correct answers are objective and do not require you to dig for deeper meanings.
+  * We're conditioned in English classes to infer and look for deeper meanings. However, inferences and interpretations are subjective, wheras the ACT is an objective test with bulletproof questions and answers. All correct answers are objective and do not require you to dig for deeper meanings.
   * You should **not** use any of your knowledge outside of the text to answer questions. This will make you answer questions incorrectly. All the information that you need to answer the question correctly is in the text, and it requires no interpretation.
 * Because all correct answers are objective and bulletproof, they are oftentimes just restatements of what’s already stated in the text.
 * Since all correct answers are bulletproof, eliminate any answers with even a single wrong or inaccurate detail.
@@ -222,7 +222,7 @@ While skimming, you should not read overly carefully. Your goals should be getti
 
 ### Science
 
-* ACT<sup>®</sup> Science is like Where's Waldo, a game where you search for a single character in a cluttered picture.
+* ACT Science is like Where's Waldo, a game where you search for a single character in a cluttered picture.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -232,10 +232,10 @@ While skimming, you should not read overly carefully. Your goals should be getti
 
 <div class="caption">Where's Waldo</div>
 
-* Let's compare this to an official ACT<sup>®</sup> Science passage. Specifically, view an official practice test in the latest [Preparing for the ACT Test booklet](https://www.act.org/content/dam/act/unsecured/documents/Preparing-for-the-ACT.pdf), and scroll to the Science section.
+* Let's compare this to an official ACT Science passage. Specifically, view an official practice test in the latest [Preparing for the ACT Test booklet](https://www.act.org/content/dam/act/unsecured/documents/Preparing-for-the-ACT.pdf), and scroll to the Science section.
 * As you can see, Science passages includes lots of confusing science terms and information. Your job, however, is to ignore all the distractions and find what the question asks for.
   * Specifically, don't worry about not understanding some of the science terms - the passage provides all the definitions you need.
-* The most important part of ACT<sup>®</sup> Science is knowing what to look for. The questions help with this by using terms such as “In Figure 1,” “Based on study 2,” and “According to the passage,” which tell you where to locate your answer.
+* The most important part of ACT Science is knowing what to look for. The questions help with this by using terms such as “In Figure 1,” “Based on study 2,” and “According to the passage,” which tell you where to locate your answer.
 * Primary locators are what you should look at first and tell you roughly where to look for your answer. Secondary locators tell you exactly what your answer (Waldo) is.
 
 |Primary locators|Explanation|
@@ -305,13 +305,13 @@ For textbooks, I provide links to Amazon, where you can get the ISBN, but note t
 | Section | Resource | Notes |
 | :-----: | :------: | :---: |
 |General|[ACT Prep Black Book](https://www.amazon.com/ACT-Prep-Black-Book-Strategies-dp-0692078398/dp/0692078398/ref=dp_ob_title_bk)|This book provides tips and strategies for each section. Additionally, it provides detailed explanations for official practice tests that show how you should think about questions. It's almost like a private tutor! However, it does not provide any questions of its own (which doesn't matter, as mentioned [above](#official-tests)). Read the description on Amazon for more details.|
-|English|[Grammarly's Complete Guide to English Grammar](https://www.grammarly.com/grammar)|Free web resource that's written super well and covers everything you need to know for the ACT<sup>®</sup>. Strongly recommend - I still read Grammarly articles to brush up on grammar rules that I forget!|
-||[Complete Guide to ACT English](https://www.amazon.com/Complete-Guide-ACT-English-Fourth/dp/1733589546)|I didn't use this too much, but I hear it's pretty solid. I strongly recommend the Grammarly resource, but this book covers grammar in the context of ACT<sup>®</sup>-style (not authentic) questions, which is valuable.|
+|English|[Grammarly's Complete Guide to English Grammar](https://www.grammarly.com/grammar)|Free web resource that's written super well and covers everything you need to know for the ACT. Strongly recommend - I still read Grammarly articles to brush up on grammar rules that I forget!|
+||[Complete Guide to ACT English](https://www.amazon.com/Complete-Guide-ACT-English-Fourth/dp/1733589546)|I didn't use this too much, but I hear it's pretty solid. I strongly recommend the Grammarly resource, but this book covers grammar in the context of ACT-style (not authentic) questions, which is valuable.|
 |Math|[Khan Academy](https://www.khanacademy.org/math)|Everything up to and including precalculus, except most of AP/College Statistics, is tested.|
-||[Advanced Math Concepts for the ACT](/assets/pdf/act/Advanced_Math_Concepts_for_the_ACT.pdf)|Document that goes over a bunch of math topics that I consider advanced for the ACT<sup>®</sup>. I wrote this by looking at 5 recent ACT<sup>®</sup> Math tests and writing about every tested topic that I considered advanced.|
+||[Advanced Math Concepts for the ACT](/assets/pdf/act/Advanced_Math_Concepts_for_the_ACT.pdf)|Document that goes over a bunch of math topics that I consider advanced for the ACT. I wrote this by looking at 5 recent ACT Math tests and writing about every tested topic that I considered advanced.|
 ||[College Panda's ACT Math](https://www.amazon.com/College-Pandas-ACT-Math-Advanced/dp/0989496473)||
-|Reading|[Complete Guide to ACT Reading](https://www.amazon.com/Complete-Guide-ACT-Reading-2nd/dp/0997517824)|Goes over strategies for Reading and some ACT<sup>®</sup>-style Reading questions.|
-|Science|[For the Love of ACT Science](https://www.amazon.com/Love-ACT-Science-innovative-standardized/dp/0996832203)|Goes over strategies for Science and some ACT<sup>®</sup>-style Science questions. I hear a lot of good things about this book.|
+|Reading|[Complete Guide to ACT Reading](https://www.amazon.com/Complete-Guide-ACT-Reading-2nd/dp/0997517824)|Goes over strategies for Reading and some ACT-style Reading questions.|
+|Science|[For the Love of ACT Science](https://www.amazon.com/Love-ACT-Science-innovative-standardized/dp/0996832203)|Goes over strategies for Science and some ACT-style Science questions. I hear a lot of good things about this book.|
 ||[PrepScholar - The Only Actual Science You Have to Know for ACT Science](https://blog.prepscholar.com/the-only-actual-science-you-have-to-know-for-act-science)|Short read|
 |Writing|[VB's Guide to the ACT Essay](https://docs.google.com/document/d/1pGgXi-fEEwbJr0Qdp5OzRkSsWnXr0IklTvFRSiZsCpw/edit?usp=sharing)|Written by someone who scored an 11/12, a 99 percentile score.|
 ||[ACT Writing rubric](http://www.act.org/content/dam/act/unsecured/documents/Writing-Test-Scoring-Rubric.pdf)|Make sure to "engage with the other perspectives."|
@@ -363,4 +363,4 @@ Your score is just a number that shows how well you can take a certain test and 
 Good/bad is very subjective. If you’re applying to a top 20 university, then a 26 would be considered very bad and, as mentioned before, could bar you admission to that university. If you’re applying to a state university with an average score of 21, however, then a 26 would be very good. If you want to determine whether your score is good or bad, look up your target university’s mid 50% score range (25th percentile score - 75th percentile score) and compare your score to that.
 </details>
 
-ACT<sup>®</sup> is a registered trademark belonging to ACT, Inc. ACT, Inc. is not involved with or affiliated with me, nor does ACT, Inc. endorse or sponsor any of the products or services offered by me.
+ACT is a registered trademark belonging to ACT, Inc. ACT, Inc. is not involved with or affiliated with me, nor does ACT, Inc. endorse or sponsor any of the products or services offered by me.
