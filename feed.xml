@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T19:58:47+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T22:51:04+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
 </subtitle><entry><title type="html">Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio</title><link href="https://jessewei.dev/blog/2023/papermod/" rel="alternate" type="text/html" title="Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio" /><published>2023-05-26T00:52:00+00:00</published><updated>2023-05-26T00:52:00+00:00</updated><id>https://jessewei.dev/blog/2023/papermod</id><content type="html" xml:base="https://jessewei.dev/blog/2023/papermod/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>I built my old site (not this one) with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and hosted on <a href="https://www.netlify.com">Netlify</a>.</p>
@@ -899,6 +899,8 @@ hugo server
   </tbody>
 </table>
 
+<p><br /></p>
+
 <h3 id="basics">Basics</h3>
 
 <p>English and Math are <strong>content-oriented</strong>. This means each question is created to cover specific grammar/math topic(s) that you should’ve learned in school. If you don’t understand the topic(s) that an English/Math question is testing, then you’d have to guess.</p>
@@ -970,6 +972,8 @@ hugo server
     </tr>
   </tbody>
 </table>
+
+<p><br /></p>
 
 <p>As mentioned in <a href="#basics">Basics</a>, Reading and Science don’t really test specific topics since they’re <strong>skill-oriented</strong>, so I mostly omit those rows in the table above. Reading tests your reading comprehension under time pressure, and I consider Science to be Reading part 2, except with data and figures: graphs, charts, tables, etc. It tests reading and data comprehension in the context of scientific passages and figures.</p>
 
@@ -1245,7 +1249,7 @@ hugo server
   </tbody>
 </table>
 
-<p>These tables are from For The Love of ACT Science.</p>
+<div class="caption">From <em>For The Love of ACT Science</em></div>
 
 <ul>
   <li>When doing the questions, you should not go back to the passage without a purpose. Use these locators to determine what your purpose is.</li>
@@ -1308,7 +1312,7 @@ hugo server
 
 <p>Lots of smart people provide free tutoring here. You can ask for resources and help in these places, and you’ll probably get a response within 10 minutes.</p>
 
-<h3 id="textbooks-and-websites">Textbooks and Websites</h3>
+<h3 id="textbooks-and-websites">Textbooks and websites</h3>
 
 <p>If you do not want to purchase these textbooks, you can find them online. <a href="https://www.google.com/search?q=libgen">https://www.google.com/search?q=libgen</a></p>
 
@@ -1385,6 +1389,8 @@ hugo server
     </tr>
   </tbody>
 </table>
+
+<p><br /></p>
 
 <h3 id="how-to-study-math">How to study math</h3>
 
