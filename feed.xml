@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T19:36:28+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T19:51:46+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
 </subtitle><entry><title type="html">Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio</title><link href="https://jessewei.dev/blog/2023/papermod/" rel="alternate" type="text/html" title="Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio" /><published>2023-05-26T00:52:00+00:00</published><updated>2023-05-26T00:52:00+00:00</updated><id>https://jessewei.dev/blog/2023/papermod</id><content type="html" xml:base="https://jessewei.dev/blog/2023/papermod/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>I built my old site (not this one) with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and hosted on <a href="https://www.netlify.com">Netlify</a>.</p>
@@ -843,15 +843,15 @@ hugo server
       <p>This would ignore any URL with <code class="language-plaintext highlighter-rouge">#center</code> suffix, not just image URLs. <a href="#fnref:9" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="website" /><category term="hugo" /><category term="papermod" /><summary type="html"><![CDATA[I originally built my site with Hugo using the PaperMod theme. I kept track of the changes I made to the theme and describe them here.]]></summary></entry><entry><title type="html">Advanced Math Concepts for the ACT®</title><link href="https://jessewei.dev/blog/2022/advanced-math-act/" rel="alternate" type="text/html" title="Advanced Math Concepts for the ACT®" /><published>2022-08-10T16:00:00+00:00</published><updated>2022-08-10T16:00:00+00:00</updated><id>https://jessewei.dev/blog/2022/advanced-math-act</id><content type="html" xml:base="https://jessewei.dev/blog/2022/advanced-math-act/"><![CDATA[<p>T</p>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[18 pgs]]></summary></entry><entry><title type="html">Jesse’s Guide to the ACT®</title><link href="https://jessewei.dev/blog/2022/guide-to-act/" rel="alternate" type="text/html" title="Jesse’s Guide to the ACT®" /><published>2022-08-10T15:00:00+00:00</published><updated>2022-08-10T15:00:00+00:00</updated><id>https://jessewei.dev/blog/2022/guide-to-act</id><content type="html" xml:base="https://jessewei.dev/blog/2022/guide-to-act/"><![CDATA[<!-- Original: https://docs.google.com/document/d/1p9AaWGGZ07w8vFwpbZ-Y0MmDiw9Vn2i_PkcQfsEvq88/edit -->
+</div>]]></content><author><name></name></author><category term="website" /><category term="hugo" /><category term="papermod" /><summary type="html"><![CDATA[I originally built my site with Hugo using the PaperMod theme. I kept track of the changes I made to the theme and describe them here.]]></summary></entry><entry><title type="html">Advanced Math Concepts for the ACT®</title><link href="https://jessewei.dev/blog/2022/advanced-math-act/" rel="alternate" type="text/html" title="Advanced Math Concepts for the ACT®" /><published>2022-08-10T16:00:00+00:00</published><updated>2022-08-10T16:00:00+00:00</updated><id>https://jessewei.dev/blog/2022/advanced-math-act</id><content type="html" xml:base="https://jessewei.dev/blog/2022/advanced-math-act/"><![CDATA[<p>T</p>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[18 pgs]]></summary></entry><entry><title type="html">Guide to the ACT®</title><link href="https://jessewei.dev/blog/2022/guide-to-act/" rel="alternate" type="text/html" title="Guide to the ACT®" /><published>2022-08-10T15:00:00+00:00</published><updated>2022-08-10T15:00:00+00:00</updated><id>https://jessewei.dev/blog/2022/guide-to-act</id><content type="html" xml:base="https://jessewei.dev/blog/2022/guide-to-act/"><![CDATA[<!-- Original: https://docs.google.com/document/d/1p9AaWGGZ07w8vFwpbZ-Y0MmDiw9Vn2i_PkcQfsEvq88/edit -->
 
 <h2 id="introduction">Introduction</h2>
 
-<p>My relevant credentials: I studied for the ACT using only free resources and scored a <a href="https://drive.google.com/file/d/1H6aFuEPKvbsZlgWtR2-lMSE_7sr83XcS/view?usp=sharing">36</a> on my first try. I also privately tutored for a while, and you can see my <a href="/blog/category/act">blog</a> for the ACT-related stuff I’ve written. I don’t tutor anymore, and I’m not trying to sell you anything. This guide is purely to help you get the score you want fast and without needing to spend any money.</p>
+<p>My relevant credentials: I studied for the ACT using only free resources and scored a <a href="https://drive.google.com/file/d/1H6aFuEPKvbsZlgWtR2-lMSE_7sr83XcS/view?usp=sharing">36</a> on my first try. I also privately tutored for a while, and you can see my <a href="/blog/category/act">blog</a> for the ACT-related stuff I’ve written. I don’t tutor anymore, and I’m not trying to sell you anything - this guide is purely to help you get the score you want fast and without needing to spend any money.</p>
 
-<p>I created this document in high school because lots of people had asked me about how I studied for the ACT. You might’ve heard of tutors and textbooks that cost a small fortune, but you can study as effectively as possible without spending any money. The best ACT resources are available online for free.</p>
+<p>You might’ve heard of tutors and textbooks that cost a small fortune, but you can study as effectively as possible without spending any money. The best ACT resources are available online for free.</p>
 
-<p>The most important section of this guide is <a href="#resources">Resources</a>, specifically the section <a href="#official-tests">Official tests</a>. My #1 piece of advice throughout the years has been that you must use <strong>official (previously administered) tests</strong> to prep, and don’t waste your time on crap (third-party) practice questions. If that’s the only thing you take away from this guide, you’ll have gained ~51% of what it has to offer.</p>
+<p>The most important part of this guide is <a href="#resources">Resources</a>, specifically the subpart <a href="#official-tests">Official tests</a>. My #1 piece of advice throughout the years has been that you must use <strong>official (previously administered) tests</strong> to prep, and don’t waste your time on crap (third-party) practice questions. If that’s the only thing you take away from this guide, you’ll have gained ~51% of what it has to offer.</p>
 
 <p>Due to a copyright claim from ACT, Inc., examples in this guide involving copyrighted ACT content have been removed or replaced. Specifically, I had to take down a link to a Google Drive containing previously administered tests from the past two decades. However, I cannot stress enough that you must use official ACT tests to prep.</p>
 
@@ -901,9 +901,9 @@ hugo server
 
 <h3 id="basics">Basics</h3>
 
-<p>English and Math are <strong>content-oriented</strong>. This means each question is created to cover specific grammar/math topic(s) that you should’ve learned in school. If you don’t understand the topic(s) that an English/Math question is testing, then you have to guess.</p>
+<p>English and Math are <strong>content-oriented</strong>. This means each question is created to cover specific grammar/math topic(s) that you should’ve learned in school. If you don’t understand the topic(s) that an English/Math question is testing, then you’d have to guess.</p>
 
-<p>Reading and Science are <strong>skill-oriented</strong>. Certainly Reading can’t test you on content of specific books, and Science rarely tests actual science topics (i.e., usually 1 or 2 questions out of 40). These sections do not test “topics.” Instead, they test your ability to absorb new content and answer questions about it quickly. Another way to put it: all answers to all Reading and <em>most</em> Science questions are in the passages and figures.</p>
+<p>Reading and Science are <strong>skill-oriented</strong>. Certainly Reading can’t test you on content of specific books, and Science rarely tests any actual science knowledge (i.e., usually 1 or 2 questions out of 40). These sections do not test “topics.” Instead, they test your ability to absorb new content and answer questions about it quickly. Another way to put it: all answers to all Reading and <em>most</em> Science questions are in the passages and figures.</p>
 
 <p>Reading tests you with fiction, social studies, humanities, and natural science passages, and Science tests you with scientific passages and figures (graphs, tables, charts, etc.). On the surface, Reading and Science might seem quite different, but the skills they test are actually quite similar.</p>
 
@@ -933,7 +933,7 @@ hugo server
 
 <p>Notice the differences above. For English and Math, if you don’t already have a solid understanding of the basic concepts, then you should spend a lot of time learning those concepts before grinding out practice tests.</p>
 
-<p>For Reading and Science, however, it should only take a small amount of time to introduce yourself to some high-level tips and strategies. Then you should immediately start grinding out practice tests to practice with those strategies.</p>
+<p>For Reading and Science, however, it should take only a small amount of time to introduce yourself to some high-level tips and strategies. Then you should immediately start grinding out practice tests to practice with those strategies.</p>
 
 <p>In either case, once you have a solid grasp of the basics (for English and Math, grammar and math concepts; for Reading and Science, general strategies for the sections), you should grind out practice tests with the goal of improving your general test-taking skills.</p>
 
@@ -1020,7 +1020,7 @@ hugo server
 
 <p>This section contains specific tips for each section of the ACT. Since I personally used many of the ACT textbooks in <a href="#textbooks-and-websites">Resources</a>, this section consists of the high points of those textbooks (though I suggest that you read them for more tips) and my own tips that I learned from experience.</p>
 
-<p>The strategies I describe are ones that worked for me and my students. Although I believe they’re optimal and would work well for most people, there may be better strategies for you.</p>
+<p>The strategies I describe are ones that worked for me and my students. Although I believe they’re optimal, there may be better strategies for you.</p>
 
 <h3 id="general">General</h3>
 
@@ -1084,6 +1084,8 @@ hugo server
 <p>The number of ways for this to occur is equal to \(\binom{8}{4}\), the number of ways to choose an unordered group of 4 from 8.</p>
 
 <p>Thus, this problem reduces to computing \(\binom{8}{4}=\frac{8!}{4!4!}=70\).</p>
+
+<p>More details in my article about <a href="/blog/2022/pascals-triangle/">Pascal’s triangle</a>.</p>
 
 <p>If this explanation doesn’t quite click, that’s okay. Maybe your understanding of combinatorics is a bit shaky - combinatorics generally isn’t covered well in high school. What matters is that you see that this is not an unsolvable hard question. It’s just one that has a “trick.” This applies to all “hard” questions on the ACT. As an aside, this also applies in general to math in school, in my experience, having gone through high school and college (undergraduate) math. See the article <a href="https://artofproblemsolving.com/blog/articles/learn-problem-solving-approach-to-mathematics">Why It’s So Important To Learn A Problem-Solving Approach To Mathematics</a>.</p>
 
