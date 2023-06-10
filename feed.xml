@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T19:30:55+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-10T19:32:59+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
 </subtitle><entry><title type="html">Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio</title><link href="https://jessewei.dev/blog/2023/papermod/" rel="alternate" type="text/html" title="Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio" /><published>2023-05-26T00:52:00+00:00</published><updated>2023-05-26T00:52:00+00:00</updated><id>https://jessewei.dev/blog/2023/papermod</id><content type="html" xml:base="https://jessewei.dev/blog/2023/papermod/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>I built my old site (not this one) with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and hosted on <a href="https://www.netlify.com">Netlify</a>.</p>
@@ -905,7 +905,7 @@ hugo server
 
 <p>Reading and Science are <strong>skill-oriented</strong>. Certainly Reading can’t test you on content of specific books, and Science rarely tests actual science topics (i.e., usually 1 or 2 questions out of 40). These sections do not test “topics.” Instead, they test your ability to absorb new content and answer questions about it quickly. Another way to put it: all answers to all Reading and <em>most</em> Science questions are in the passages and figures.</p>
 
-<p>Reading tests you with fiction, social studies, humanities, and natural science passages, and Science tests you with scientfic passages and figures (graphs, tables, charts, etc.). On the surface, Reading and Science might seem quite different, but the skills they test are actually quite similar.</p>
+<p>Reading tests you with fiction, social studies, humanities, and natural science passages, and Science tests you with scientific passages and figures (graphs, tables, charts, etc.). On the surface, Reading and Science might seem quite different, but the skills they test are actually quite similar.</p>
 
 <h3 id="study-strategy">Study strategy</h3>
 
@@ -1138,7 +1138,7 @@ hugo server
   <li>While answering questions, on the other hand, you need to read relevant portion(s) of the passage very carefully and precisely.</li>
   <li>Specifically, take in all important information in the question and in the relevant portion(s), but don’t jump to any of your own conclusions.
     <ul>
-      <li>We’re conditioned in English classes to infer and look for deeper meanings. However, inferences and interpretations are subjective, wheras the ACT is an objective test with bulletproof questions and answers. All correct answers are objective and do not require you to dig for deeper meanings.</li>
+      <li>We’re conditioned in English classes to infer and look for deeper meanings. However, inferences and interpretations are subjective, whereas the ACT is an objective test with bulletproof questions and answers. All correct answers are objective and do not require you to dig for deeper meanings.</li>
       <li>You should <strong>not</strong> use any of your knowledge outside of the text to answer questions. This will make you answer questions incorrectly. All the information that you need to answer the question correctly is in the text, and it requires no interpretation.</li>
     </ul>
   </li>
