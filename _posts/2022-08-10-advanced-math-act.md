@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced Math Concepts for the ACT®"
+title: "Advanced Math Concepts for the ACT<sup>®</sup>"
 date: 2022-08-10T12:00:00-04:00
 description: 18 pgs
 categories: act
