@@ -47,7 +47,7 @@ English and Math are **content-oriented**. This means each question is created t
 
 Reading and Science are **skill-oriented**. Certainly Reading can't test you on content of specific books, and Science rarely tests actual science topics (i.e., usually 1 or 2 questions out of 40). These sections do not test "topics." Instead, they test your ability to absorb new content and answer questions about it quickly. Another way to put it: all answers to all Reading and *most* Science questions are in the passages and figures.
 
-Reading tests you with fiction, social studies, humanities, and natural science passages, and Science tests you with scientfic passages and figures (graphs, tables, charts, etc.). On the surface, Reading and Science might seem quite different, but the skills they test are actually quite similar.
+Reading tests you with fiction, social studies, humanities, and natural science passages, and Science tests you with scientific passages and figures (graphs, tables, charts, etc.). On the surface, Reading and Science might seem quite different, but the skills they test are actually quite similar.
 
 ### Study strategy
 
@@ -129,7 +129,7 @@ If you do this enough, you should be able to find trends in the mistakes you mak
 
 ## Specific tips
 
-This section contains specific tips for each section of the ACT. Since I personally used many of the ACT textbooks in [Resources](#websites-and-textbooks), this section consists of the high points of those textbooks (though I suggest that you read them for more tips) and my own tips that I learned from experience.
+This section contains specific tips for each section of the ACT. Since I personally used many of the ACT textbooks in [Resources](#textbooks-and-websites), this section consists of the high points of those textbooks (though I suggest that you read them for more tips) and my own tips that I learned from experience.
 
 The strategies I describe are ones that worked for me and my students. Although I believe they're optimal and would work well for most people, there may be better strategies for you.
 
@@ -214,7 +214,7 @@ While skimming, you should not read overly carefully. Your goals should be getti
 
 * While answering questions, on the other hand, you need to read relevant portion(s) of the passage very carefully and precisely.
 * Specifically, take in all important information in the question and in the relevant portion(s), but don't jump to any of your own conclusions.
-  * We're conditioned in English classes to infer and look for deeper meanings. However, inferences and interpretations are subjective, wheras the ACT is an objective test with bulletproof questions and answers. All correct answers are objective and do not require you to dig for deeper meanings.
+  * We're conditioned in English classes to infer and look for deeper meanings. However, inferences and interpretations are subjective, whereas the ACT is an objective test with bulletproof questions and answers. All correct answers are objective and do not require you to dig for deeper meanings.
   * You should **not** use any of your knowledge outside of the text to answer questions. This will make you answer questions incorrectly. All the information that you need to answer the question correctly is in the text, and it requires no interpretation.
 * Because all correct answers are objective and bulletproof, they are oftentimes just restatements of what’s already stated in the text.
 * Since all correct answers are bulletproof, eliminate any answers with even a single wrong or inaccurate detail.
