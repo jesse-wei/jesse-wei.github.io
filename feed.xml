@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-11T01:55:50+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://jessewei.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://jessewei.dev/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-06-11T14:51:05+00:00</updated><id>https://jessewei.dev/feed.xml</id><title type="html">blank</title><subtitle>Computer Science MS student at UNC. I post a lot of educational content about math and CS on my website. I also describe the projects I&apos;ve worked on.
 </subtitle><entry><title type="html">Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio</title><link href="https://jessewei.dev/blog/2023/papermod/" rel="alternate" type="text/html" title="Overview of Hugo/PaperMod, modifying PaperMod, and comparison to al-folio" /><published>2023-05-26T00:52:00+00:00</published><updated>2023-05-26T00:52:00+00:00</updated><id>https://jessewei.dev/blog/2023/papermod</id><content type="html" xml:base="https://jessewei.dev/blog/2023/papermod/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>I built my old site (not this one) with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/adityatelange/hugo-PaperMod">PaperMod</a> and hosted on <a href="https://www.netlify.com">Netlify</a>.</p>
@@ -2047,7 +2047,7 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
       <p>On the complex plane, the \(x\) axis represents all real numbers \(\mathbb{R}\), and the \(y\) axis represents all imaginary numbers \(bi\) for \(b \in \mathbb{R}\). <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[$$e^{ix}=\cos (x) +i \sin (x)$$. $$e^{i \pi} + 1 = 0$$.]]></summary></entry><entry><title type="html">3x3 PB: 9.04s</title><link href="https://jessewei.dev/blog/2021/cubing-pb/" rel="alternate" type="text/html" title="3x3 PB: 9.04s" /><published>2021-11-26T00:00:00+00:00</published><updated>2021-11-26T00:00:00+00:00</updated><id>https://jessewei.dev/blog/2021/cubing-pb</id><content type="html" xml:base="https://jessewei.dev/blog/2021/cubing-pb/"><![CDATA[<p>My current 3x3 PB is 9.04s.</p>
+</div>]]></content><author><name></name></author><category term="act" /><category term="math" /><summary type="html"><![CDATA[$$e^{ix}=\cos (x) +i \sin (x)$$. $$e^{i \pi} + 1 = 0$$.]]></summary></entry><entry><title type="html">Speedcubing</title><link href="https://jessewei.dev/blog/2021/cubing/" rel="alternate" type="text/html" title="Speedcubing" /><published>2021-11-26T00:00:00+00:00</published><updated>2021-11-26T00:00:00+00:00</updated><id>https://jessewei.dev/blog/2021/cubing</id><content type="html" xml:base="https://jessewei.dev/blog/2021/cubing/"><![CDATA[<p>My current 3x3 PB is 9.04s.</p>
 
 <figure>
 
@@ -2112,10 +2112,14 @@ Good/bad is very subjective. If you’re applying to a top 20 university, then a
     </tr>
   </tbody>
 </table>
+
+<p><br /></p>
+
+<p>Also see my <a href="/projects/rubiks-541/">Rubik’s cube</a> (MIPS assembly) project made in <a href="https://comp541.web.unc.edu">COMP 541</a> (Digital Logic and Computer Design).</p>
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
       <p>Couch facing the printer outside COMP 110 OH room <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name></name></author><category term="cubing" /><summary type="html"><![CDATA[Details about my current 3x3 speedcubing PB (personal best).]]></summary></entry></feed>
+</div>]]></content><author><name></name></author><category term="cubing" /><summary type="html"><![CDATA[Details about speedcubing hobby. My current 3x3 PB is 9.04s.]]></summary></entry></feed>
