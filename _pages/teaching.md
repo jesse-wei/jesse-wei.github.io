@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I was a head UTA for COMP 311 and a UTA for COMP 210 and COMP 110. For all classes, I held office hours and review sessions. I also created and graded assessments and assignments. I was honored to receive the Diane Pozefsky Learning Assistant Award.
+description: I was a head UTA for COMP 311 and a UTA for COMP 210 and COMP 110. For all classes, I held office hours and review sessions. I also created and graded assessments and assignments. I was honored to receive the Diane Pozefsky Learning Assistant Award in Spring 2023.
 nav: true
 nav_order: 5
 giscus_comments: true
@@ -194,7 +194,7 @@ giscus_comments: true
             I wrote a guide to the ACT in high school and have updated it quite a bit. I also wrote about advanced math concepts on the ACT.
           </div>
           <div class="col-sm-3">
-            Jesse's Guide to the ACT® (down due to copyright notice)
+            <a href="/blog/2022/guide-to-act/">Jesse's Guide to the ACT®</a>
             <br>
             <a href="/assets/pdf/act/Advanced_Math_Concepts_for_the_ACT.pdf">Advanced Math Concepts for the ACT®</a> (<a href="https://www.overleaf.com/read/rhmqqyskcrwp">Source</a>)
           </div>

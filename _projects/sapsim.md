@@ -2,7 +2,7 @@
 layout: page
 title: SAPsim
 date: 2023-02-28T18:08:42-04:00
-description: Simulation of SAP (Simple-As-Possible computer) programs from COMP311 @ UNC. Enabled me to autograde and create COMP 311's SAP programming assignment.
+description: Simulation of SAP (Simple-As-Possible computer) programs from COMP 311 @ UNC. Enabled me to autograde and create COMP 311's SAP programming assignment.
 img: assets/img/sapsim/SAPsim_still_cropped.jpg
 importance: 2
 toc:
@@ -24,9 +24,9 @@ category: school
 
 ## Description
 
-Simulation of [SAP](#figures) (Simple-As-Possible computer) programs from COMP311 (Computer Organization) @ [UNC](https://unc.edu).
+Simulation of [SAP](#figures) (Simple-As-Possible computer) programs from COMP 311 (Computer Organization) @ [UNC](https://unc.edu).
 
-Enabled me to autograde and create COMP311's SAP programming assignment.
+Enabled me to autograde and create COMP 311's SAP programming assignment.
 
 Installable via `pip install SAPsim`.
 

@@ -25,4 +25,4 @@ In 2023, I graduated early and with highest distinction from UNC with a B.S. in 
 
 I was a head UTA for COMP 311 (Computer Organization). I was also a UTA for [COMP 210](https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html) (Data Structures) and [COMP 110](https://22s.comp110.com) (Introduction to Programming).
 
-A fun fact about me: I used to [speedcube](/blog/2021/cubing-pb).
+A fun fact about me: I used to [speedcube](/blog/2021/cubing).
