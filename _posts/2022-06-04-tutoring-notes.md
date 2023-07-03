@@ -11,7 +11,9 @@ related_posts: true
 #   sidebar: left
 ---
 
-ACT® is a registered trademark belonging to ACT, Inc. ACT, Inc. is not involved with or affiliated with jessewei.dev, nor does ACT, Inc. endorse or sponsor any of the products or services offered by jessewei.dev.
+For my tutoring sessions, I had my students take a section before class, and we'd go over whatever questions they got wrong or otherwise struggled with during class.
+
+I archived all notes here and include links to some blog posts I wrote that are relevant to some interesting topics.
 
 * 2022-06-04 (G&L)
   * [Math E25](https://drive.google.com/file/d/1Rv-uoJf2GoVGSzVr3pSjbZOVe8qzdlh4/view?usp=sharing)
@@ -111,3 +113,5 @@ ACT® is a registered trademark belonging to ACT, Inc. ACT, Inc. is not involved
   * [Math B02](https://drive.google.com/file/d/18uFS1gD1avW3d0-cxBDoY3rKUJOrleVy/view?usp=sharing)
 * 2022-01-22 (G&L)
   * [Math E23](https://drive.google.com/file/d/1PJ3KTbgR02vax06JdRvBTyeJafqBDIW8/view?usp=sharing)
+
+ACT® is a registered trademark belonging to ACT, Inc. ACT, Inc. is not involved with or affiliated with jessewei.dev, nor does ACT, Inc. endorse or sponsor any of the products or services offered by jessewei.dev.
