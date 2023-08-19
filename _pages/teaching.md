@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I was a head UTA for COMP 311 and a UTA for COMP 210 and COMP 110. For all classes, I held office hours and review sessions. I also created and graded assessments and assignments. I was honored to receive the Diane Pozefsky Learning Assistant Award in Spring 2023.
+description: I am a graduate TA for COMP 311. I was a UTA for COMP 311, 210, and 110. I was honored to receive UNC's Diane Pozefsky Learning Assistant Award in Spring 2023.
 nav: true
 nav_order: 5
 giscus_comments: true
@@ -17,7 +17,7 @@ giscus_comments: true
     <div class="row">
       <div class="col-sm-10">
         <h5 id="comp311" class="card-title">Computer Organization</h5>
-        <h6 class="card-subtitle font-italic">Fall 2022 and Spring 2023: Head UTA</h6>
+        <h6 class="card-subtitle font-italic">Graduate TA (F23), Head UTA (S23, F22)</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
@@ -29,7 +29,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            In 23S, I developed a SAP (Simple-As-Possible computer) program simulator, which enabled me to autograde and create a SAP programming assignment.
+            In 23S, I developed a SAP (Simple-As-Possible computer) program simulator, which enabled me to create and autograde a SAP programming assignment.
           </div>
           <div class="col-sm-3">
             <a href="/projects/sapsim">SAPsim</a>&nbsp;(<a href="https://github.com/jesse-wei/SAPsim">GitHub</a>)
@@ -39,7 +39,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I added and wrote the autograder for a new part of the ALU implementation assignment, in which students implement flag detection in the ALU.
+            I created a new part of the ALU implementation assignment, in which students implement ALU flag detection.
           </div>
         </div>
       </li>
@@ -56,7 +56,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I have written 20+ in-use quiz and exam questions. In 23S, I wrote the entirety of a brand-new Quiz 7 on the MIPS processor and control signals.
+            I have written 20+ in-use quiz and exam questions. In 23S, I wrote the entirety of Quiz 7, which covered the MIPS processor and control signals.
           </div>
           <div class="col-sm-3">
           </div>
@@ -75,7 +75,7 @@ giscus_comments: true
             <a href="/assets/pdf/comp311/Quiz5Review.pdf" data-proofer-ignore>Quiz5</a>
             <a href="/assets/pdf/comp311/Quiz6Review.pdf" data-proofer-ignore>Quiz6</a>
             <a href="/assets/pdf/comp311/Exam1Review.pdf" data-proofer-ignore>Exam1</a>
-            (These links won't work but are available on request)
+            (These resources are available on request)
           </div>
         </div>
       </li>
@@ -98,7 +98,7 @@ giscus_comments: true
     <div class="row">
       <div class="col-sm-10">
         <h5 id="comp210" class="card-title"><a href="https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html">Data Structures and Analysis</a></h5>
-        <h6 class="card-subtitle font-italic">Summer 2022: Head UTA</h6>
+        <h6 class="card-subtitle font-italic">Head UTA (Summer '22)</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
@@ -136,7 +136,7 @@ giscus_comments: true
     <div class="row">
       <div class="col-sm-10">
         <h5 id="comp110" class="card-title"><a href="https://22s.comp110.com">Introduction to Programming and Data Science</a></h5>
-        <h6 class="card-subtitle font-italic">Spring 2021, Fall 2021, Spring 2022: UTA</h6>
+        <h6 class="card-subtitle font-italic">UTA (S22, F21, S21)</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
@@ -215,7 +215,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            A lot of my blog post ideas came from topics I covered during my tutoring lessons. They're quite out-of-scope for the ACT because they're for a general audience, not just ACT test-takers.
+            A lot of my blog post ideas came from topics I covered during my tutoring lessons.
           </div>
           <div class="col-sm-3">
             <a href="/blog/category/act/">Blog</a> (ACT category)

@@ -3,7 +3,7 @@ layout: about
 # No title so that it doesn't show up in header
 title: 
 permalink: /
-subtitle: Computer Science MS student at <a href="https://unc.edu">UNC</a> • SWE Intern @ <a href="https://www.teledyne-si.com">Teledyne SI</a>
+subtitle: Computer Science MS student at <a href="https://unc.edu">UNC</a>
 
 profile:
   align: right
@@ -21,8 +21,8 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a Master's student in the [Department of Computer Science](https://cs.unc.edu) at [UNC](https://unc.edu).
 
-In 2023, I graduated early and with highest distinction from UNC with a B.S. in Mathematics and a B.S. in Computer Science. This summer, I'm interning at [Teledyne Scientific & Imaging](https://www.teledyne-si.com).
+In 2023, I graduated early and with highest distinction from UNC with a B.S. in Mathematics and a B.S. in Computer Science. I have interned at [Teledyne Scientific & Imaging](https://www.teledyne-si.com/).
 
-I was a head UTA for COMP 311 (Computer Organization). I was also a UTA for [COMP 210](https://www.cs.unc.edu/~kakiryan/teaching/summer-210.html) (Data Structures) and [COMP 110](https://22s.comp110.com) (Introduction to Programming).
+I am a graduate TA for COMP 311 (Computer Organization). I was a UTA for COMP 311, 210, and 110.
 
 A fun fact about me: I used to [speedcube](/blog/2021/cubing).
