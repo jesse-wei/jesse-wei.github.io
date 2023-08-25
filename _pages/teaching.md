@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I am a graduate TA for COMP 311. I was a UTA for COMP 311, 210, and 110. I was honored to receive UNC's Diane Pozefsky Learning Assistant Award in Spring 2023.
+description: I am a graduate TA for COMP 311. I was a UTA for COMP 311, 210, and 110. I received UNC's Diane Pozefsky Learning Assistant Award in Spring 2023.
 nav: true
 nav_order: 5
 giscus_comments: true
@@ -56,7 +56,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I have written 20+ in-use quiz and exam questions. In 23S, I wrote the entirety of Quiz 7, which covered the MIPS processor and control signals.
+            I have written 20+ in-use quiz and exam questions. In 23S, I wrote the entirety of Quiz 7 on the MIPS processor and control signals.
           </div>
           <div class="col-sm-3">
           </div>
@@ -65,7 +65,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I have written and released explanations for 150+ practice PollEverywhere (PEW) questions. In 23S, I held three review sessions for the entire course, with an average of 40 students at each review session.
+            I have written and released explanations for 150+ practice assessment questions. In 23S, I held three assessment review sessions for the course, with an average of 40 students at each.
           </div>
           <div class="col-sm-3">
           </div>
