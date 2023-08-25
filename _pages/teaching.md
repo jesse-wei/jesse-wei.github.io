@@ -71,15 +71,6 @@ giscus_comments: true
           </div>
         </div>
       </li>
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            I received the <a href="https://cs.unc.edu/about/awards/department-awards/pozefsky-la-award/">Diane Pozefsky Learning Assistant Award</a>.
-          </div>
-          <div class="col-sm-3">
-          </div>
-        </div>
-      </li>
     </ul>
   </div>
 </div>
