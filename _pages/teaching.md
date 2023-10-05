@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I am a graduate TA for COMP 311. I was a UTA for COMP 311, 210, and 110. I received UNC's Diane Pozefsky Learning Assistant Award in Spring 2023.
+description: I am a graduate TA for COMP 311. I was a UTA for COMP 311, 210, and 110. I am one of two awardees of UNC's Diane Pozefsky Learning Assistant Award (Spring 2023).
 nav: true
 nav_order: 5
 giscus_comments: true
@@ -29,7 +29,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            In 23S, I developed a SAP (Simple-As-Possible computer) program simulator, which enabled me to create and autograde a SAP programming assignment.
+            I developed and maintain a SAP (Simple-As-Possible computer) program simulator, which enabled me to create and autograde a SAP programming assignment.
           </div>
           <div class="col-sm-3">
             <a href="/projects/sapsim">SAPsim</a>&nbsp;(<a href="https://github.com/jesse-wei/SAPsim">GitHub</a>)
@@ -39,7 +39,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I created a new part of the ALU implementation assignment, in which students implement ALU flag detection.
+            I revamped the ALU implementation assignment and its autograder. It now has a 5-bit control table (9 operations) and computes FlagC and FlagZ, whereas it previously had only a 2-bit control table (4 operations). I also maintain and edit the other 7 existing lab assignments.
           </div>
         </div>
       </li>
@@ -56,7 +56,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I have written 20+ in-use quiz and exam questions. In 23S, I wrote the entirety of Quiz 7 on the MIPS processor and control signals.
+            I have written 30+ in-use quiz and exam questions. I have verified and edited, as needed, nearly all assessment questions in the course. I wrote the entirety of Quiz 7 (MIPS processor and control signals).
           </div>
           <div class="col-sm-3">
           </div>
@@ -65,7 +65,16 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I have written and released explanations for 150+ practice assessment questions. In 23S, I held three assessment review sessions for the course, with an average of 40 students at each.
+            I write and release explanations for 250+ assessment questions and practice assessment questions (PEW). In 23S, I held three assessment review sessions for the course, with an average of 40 students at each.
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            I manage the undergraduate LA team, develop autograders for assignments, hold office hours, and answer student questions (on Piazza and elsewhere).
           </div>
           <div class="col-sm-3">
           </div>
