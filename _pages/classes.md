@@ -11,7 +11,7 @@ toc:
 # category: school
 ---
 
-You probably discovered this page because I gave you the link. This page is unlinked on my website. And surely no one reads the source code. If you did find it by reading the source code, you're a nerd.
+You probably discovered this page because I gave you the link. This page is not indexed (in robots.txt) and unlinked on my site. And surely no one reads the source code. If you did find it by reading the source code, you're a nerd.
 
 I give the link to people who want my advice as to what classes they should take.
 
