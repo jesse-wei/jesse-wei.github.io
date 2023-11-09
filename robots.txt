@@ -1,4 +1,4 @@
 User-agent: *
-Disallow:
+Disallow: /classes
 
 Sitemap: https://jessewei.dev/sitemap.xml
