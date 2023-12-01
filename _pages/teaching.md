@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I am a graduate TA for COMP 311 and was a UTA for COMP 311, 210, and 110. I am one of two awardees of UNC's Diane Pozefsky Learning Assistant Award (Spring 2023).
+description: I am a graduate TA for COMP 311 and was a UTA for COMP 311, 210, and 110. I am one of two awardees of the 2023 Diane Pozefsky Learning Assistant Award ($1000 prize).
 nav: true
 nav_order: 5
 giscus_comments: true
@@ -94,7 +94,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I refined our assessment creation and review process. In particular, I developed a workflow by which we write questions in Markdown format and convert them (via <a href="https://github.com/jgm/pandoc">pandoc</a>) to HTML or PDF, allowing for version control and better collaboration via GitHub.
+            I refined and automated our question creation and review process. In particular, I developed a workflow in which we write questions in Markdown format on GitHub and convert (via <a href="https://github.com/jgm/pandoc">pandoc</a>) to HTML/PDF, allowing for version control and better collaboration.
           </div>
           <div class="col-sm-3">
           </div>
