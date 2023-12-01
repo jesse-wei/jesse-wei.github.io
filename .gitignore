@@ -9,3 +9,4 @@ _site
 .tweet-cache
 Gemfile.lock
 vendor
+_posts/2023-06-13-passwords.md

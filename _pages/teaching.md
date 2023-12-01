@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I am a graduate TA for COMP 311. I was a UTA for COMP 311, 210, and 110. I am one of two awardees of UNC's Diane Pozefsky Learning Assistant Award (Spring 2023).
+description: I am a graduate TA for COMP 311 and was a UTA for COMP 311, 210, and 110. I am one of two awardees of UNC's Diane Pozefsky Learning Assistant Award (Spring 2023).
 nav: true
 nav_order: 5
 giscus_comments: true
@@ -11,6 +11,35 @@ giscus_comments: true
 ---
 
 <h3 style="color: #4b9cd3;" id="unc"><a href="https://unc.edu">UNC</a></h3>
+<!-- COMP 541 (Digital Logic and Computer Design) -->
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 id="comp311" class="card-title">Digital Logic and Computer Design</h5>
+        <h6 class="card-subtitle font-italic">Volunteer (F23, W22)</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          541
+        </span>
+      </div>
+    </div>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            I, along with a classmate, ported COMP 541's C# (i.e., Windows-only) final project simulator to Java (cross-platform), roughly doubling the necessary tool's potential audience (~60 students per semester). It is currently in-use in COMP 541 and maintained by me.
+          </div>
+          <div class="col-sm-3">
+            <a href="/projects/mips-emulator">MIPS Emulator</a>&nbsp;(<a href="https://github.com/madiali/mips-emulator">GitHub</a>)
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
 <!-- COMP 311 (Computer Organization) -->
 <div class="card mt-3">
   <div class="p-3">
@@ -29,7 +58,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I developed and maintain a SAP (Simple-As-Possible computer) program simulator, which enabled me to create and autograde a SAP programming assignment.
+            I developed and maintain a SAP (Simple-As-Possible computer) program simulator, which enabled me to create and write an autograder for a SAP programming assignment.
           </div>
           <div class="col-sm-3">
             <a href="/projects/sapsim">SAPsim</a>&nbsp;(<a href="https://github.com/jesse-wei/SAPsim">GitHub</a>)
@@ -39,33 +68,23 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I revamped the ALU implementation assignment and its autograder. It now has a 5-bit control table (9 operations) and computes FlagC and FlagZ, whereas it previously had only a 2-bit control table (4 operations). I also maintain and edit the other 7 existing lab assignments.
+            I create and refine programming assignments in the course. I created Lab 4 (SAP programming) and the majority of the final project (BST implementation in MIPS).
+            I revamped Lab 3 (ALU implementation). It now has a 5-bit control table (9 operations) and computes FlagC and FlagZ, whereas it previously had only a 2-bit control table and did not compute flags.
+            I have significantly refined the existing programming assignments. In particular, I incorporated several improvements, including usage of Digital's Tunnel and Splitter/Merger components and multi-bit capabilities. I also incorporated MIPS macros. I also automated installation of necessary software via a script.
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I created a resource that implements and explains 12 circuits from the course.
-          </div>
-          <div class="col-sm-3">
-            <a href="https://github.com/jesse-wei/COMP311-circuits">COMP 311 circuits</a>
+            I write and maintain autograder code for the programming assignments. I refactored existing autograder code to be more modular and extensible and provide better feedback to students.
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I have written 30+ in-use quiz and exam questions. I have verified and edited, as needed, nearly all assessment questions in the course. I wrote the entirety of Quiz 7 (MIPS processor and control signals).
-          </div>
-          <div class="col-sm-3">
-          </div>
-        </div>
-      </li>
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            I write and release explanations for 250+ assessment questions and practice assessment questions (PEW). In 23S, I held three assessment review sessions for the course, with an average of 40 students at each.
+            I have written 35+ in-use quiz and exam questions. I have verified and edited, as needed, all assessment questions in the course. I wrote all of Quiz 7 (MIPS processor and control signals).
           </div>
           <div class="col-sm-3">
           </div>
@@ -74,7 +93,25 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I manage the undergraduate LA team, develop autograders for assignments, hold office hours, and answer student questions (on Piazza and elsewhere).
+            I refined the assessment creation and review process. In particular, we used to edit questions in Sakai and Canvas, but I developed a workflow by which we write questions in Markdown format and convert them (via pandoc) to HTML for use in Canvas or PDF for distribution to students. This also allows for version control and better collaboration via GitHub.
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            I write and edit explanations for all assessment questions in the course. I have also written explanations for the 180+ practice questions created by Professor Munsell.
+          </div>
+          <div class="col-sm-3">
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            I manage the undergraduate LA team, hold office hours, and answer student questions (on Piazza and elsewhere). In 23S, I held three in-person assessment review sessions for the course, with an average of 40 students at each.
           </div>
           <div class="col-sm-3">
           </div>
