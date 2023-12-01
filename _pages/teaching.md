@@ -68,17 +68,17 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            <p>I create and refine programming assignments.</p>
+            <p>I create and refine programming assignments and their autograders.</p>
             <p>I created Lab 4 (SAP programming) and the majority of the final project (BST implementation in MIPS assembly).</p>
             <p>I revamped Lab 3 (ALU implementation). The ALU now has a 5-bit control table and computes flags, whereas it previously had a 2-bit control table.</p>
-            <p>I refine existing programming assignments. In particular, I incorporated several improvements, including usage of Digital's Tunnel and Splitter/Merger components and multi-bit capabilities. I also incorporated MIPS macros.</p>
+            <p>I incorporated several improvements to the assignments, including usage of <a href="https://github.com/hneemann/Digital">Digital</a>'s Tunnel and Splitter/Merger components and multi-bit capabilities. I also incorporated MIPS <a href="https://courses.missouristate.edu/kenvollmar/mars/help/MacrosHelp.html">macros</a>.</p>
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I write and maintain autograder code for programming assignments. I refactored existing autograder code to be more modular and extensible and provide better feedback to students.
+            I refactored existing autograder code to be more modular and extensible and provide better feedback to students.
           </div>
         </div>
       </li>
@@ -94,7 +94,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I refined our assessment creation and review process. In particular, I developed a workflow by which we write questions in Markdown format and convert them (via <a href="https://github.com/jgm/pandoc">pandoc</a>) to HTML or PDF. This allows for version control and better collaboration via GitHub.
+            I refined our assessment creation and review process. In particular, I developed a workflow by which we write questions in Markdown format and convert them (via <a href="https://github.com/jgm/pandoc">pandoc</a>) to HTML or PDF, allowing for version control and better collaboration via GitHub.
           </div>
           <div class="col-sm-3">
           </div>
@@ -103,7 +103,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I write and edit explanations for all assessment questions in the course. I have also written explanations for the 180+ practice questions created by Professor Munsell.
+            I write and edit explanations for all assessment questions. I have also written explanations for the 180+ practice questions written by Professor Munsell.
           </div>
           <div class="col-sm-3">
           </div>
