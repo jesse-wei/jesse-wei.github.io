@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm a Master's student in the [Department of Computer Science](https://cs.unc.edu) at [UNC](https://unc.edu).
 
-In 2023, I graduated early and with highest distinction from UNC with a B.S. in Mathematics and a B.S. in Computer Science. I have interned at [Teledyne Scientific & Imaging](https://www.teledyne-si.com/).
+In 2023, I graduated early and with highest distinction from UNC with a B.S. in Mathematics and a B.S. in Computer Science.
 
 I am a graduate TA for COMP 311 (Computer Organization). I was a UTA for COMP 311, 210, and 110.
 

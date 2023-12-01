@@ -29,7 +29,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I, along with a classmate, ported COMP 541's C# (i.e., Windows-only) final project simulator to Java (cross-platform), roughly doubling the necessary tool's potential audience (~60 students per semester). It is currently in-use in COMP 541 and maintained by me.
+            I, along with a classmate, ported COMP 541's C# (i.e., Windows-only) final project simulator to Java (cross-platform), roughly doubling the tool's potential audience (~60 students per semester). It is currently in-use in COMP 541 and maintained by me.
           </div>
           <div class="col-sm-3">
             <a href="/projects/mips-emulator">MIPS Emulator</a>&nbsp;(<a href="https://github.com/madiali/mips-emulator">GitHub</a>)
@@ -58,7 +58,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I developed and maintain a SAP (Simple-As-Possible computer) program simulator, which enabled me to create and write an autograder for a SAP programming assignment.
+            I developed and maintain a SAP (Simple-As-Possible computer) program simulator, which enabled me to create an autograder for a SAP programming assignment.
           </div>
           <div class="col-sm-3">
             <a href="/projects/sapsim">SAPsim</a>&nbsp;(<a href="https://github.com/jesse-wei/SAPsim">GitHub</a>)
@@ -68,9 +68,9 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I create and refine programming assignments in the course. I created Lab 4 (SAP programming) and the majority of the final project (BST implementation in MIPS).
-            I revamped Lab 3 (ALU implementation). It now has a 5-bit control table (9 operations) and computes FlagC and FlagZ, whereas it previously had only a 2-bit control table and did not compute flags.
-            I have significantly refined the existing programming assignments. In particular, I incorporated several improvements, including usage of Digital's Tunnel and Splitter/Merger components and multi-bit capabilities. I also incorporated MIPS macros. I also automated installation of necessary software via a script.
+            <p>I create and refine programming assignments. I created Lab 4 (SAP programming) and the majority of the final project (BST implementation in MIPS assembly).</p>
+            <p>I revamped Lab 3 (ALU implementation). The ALU now has a 5-bit control table and computes flags, whereas it previously had a 2-bit control table.</p>
+            <p>I refine the existing programming assignments. In particular, I incorporated several improvements, including usage of Digital's Tunnel and Splitter/Merger components and multi-bit capabilities. I also incorporated MIPS macros.</p>
           </div>
         </div>
       </li>
@@ -93,7 +93,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I refined the assessment creation and review process. In particular, we used to edit questions in Sakai and Canvas, but I developed a workflow by which we write questions in Markdown format and convert them (via pandoc) to HTML for use in Canvas or PDF for distribution to students. This also allows for version control and better collaboration via GitHub.
+            I refined our assessment creation and review process. In particular, I developed a workflow by which we write questions in Markdown format and convert them (via pandoc) to HTML for use in Canvas or PDF for distribution to students. This allows for version control and better collaboration via GitHub.
           </div>
           <div class="col-sm-3">
           </div>
