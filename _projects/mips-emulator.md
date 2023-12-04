@@ -2,7 +2,7 @@
 layout: page
 title: MIPS Emulator
 date: 2023-01-10T17:45:02-04:00
-description: MIPS assembly emulator for simulating COMP 541 (Digital Logic) final projects at UNC. Simulates memory-mapped I/O devices, including VGA display, accelerometer, and keyboard.
+description: In-use MIPS assembly emulator for simulating COMP 541 (Digital Logic) final projects at UNC. Simulates memory-mapped I/O devices, including VGA display, accelerometer, and keyboard.
 img: assets/img/mips_emulator/mips_emulator.jpg
 importance: 3
 toc:
