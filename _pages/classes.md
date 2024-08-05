@@ -50,7 +50,7 @@ I ask that you not give the link to this page to others without my permission ([
 | :---: | :-------: | :---: | :------: |
 |COMP 211: Systems Fundamentals (3)|[Brent Munsell](https://cs.unc.edu/person/brent-munsell/)|A|[Statistics](/assets/img/classes/comp211_distribution.jpg). Did not use Vim while taking the class, but I'm addicted to Vim now.|
 |<a href="https://www.comp301.com" data-proofer-ignore>COMP 301: Foundations of Programming</a> (3)|[Aaron Smith](https://onsmith.com)|A|A legend, unfortunately capitalism 🤌|
-|COMP 447: Quantum Computing (3)|[Jonathan Engel](https://users.physics.unc.edu/~engelj/)|A|Most interesting class at UNC. [Professor's textbook](https://drive.google.com/file/d/1co5lS9BTVhSF_yTzAoxvaozsRcpMhagw/view?usp=share_link).|
+|COMP 447: Quantum Computing (3)|[Jonathan Engel](https://users.physics.unc.edu/~engelj/)|A-|Most interesting class at UNC. [Professor's textbook](https://drive.google.com/file/d/1co5lS9BTVhSF_yTzAoxvaozsRcpMhagw/view?usp=share_link).|
 |MATH 521: Advanced Calculus I (3)|[Shrawan Kumar](https://kumar.math.unc.edu)|C-|It's my own fault, and it's my biggest regret at UNC. This is among the most interesting math classes.|
 |TA for [COMP 110](https://21f.comp110.com)|[Kris Jordan](https://krisjordan.com)|N/A|Good times.|
 
