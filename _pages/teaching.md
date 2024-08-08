@@ -69,16 +69,15 @@ giscus_comments: true
         <div class="row">
           <div class="col-sm-9">
             <p>I create and refine programming assignments and their autograders.</p>
-            <p>I created Lab 4 (SAP programming) and the majority of the final project (BST implementation in MIPS assembly).</p>
-            <p>I revamped Lab 3 (ALU implementation). The ALU now has a 5-bit control table and computes flags, whereas it previously had a 2-bit control table.</p>
-            <p>I incorporated several improvements to the assignments, including usage of <a href="https://github.com/hneemann/Digital">Digital</a>'s Tunnel and Splitter/Merger components and multi-bit capabilities. I also incorporated MIPS <a href="https://courses.missouristate.edu/kenvollmar/mars/help/MacrosHelp.html">macros</a>.</p>
+            <p>I created Lab 4 (SAP programming), the majority of the final project (BST implementation in MIPS assembly), and revamped Lab 3 (ALU implementation).</p>
+            <p>Made several improvements to the other assignments.</p>
           </div>
         </div>
       </li>
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I refactored existing autograder code for the final project (would be trivial to extend to other assignments) to be more modular and extensible and provide better feedback to students.
+            Refactored autograders to be more modular and extensible and provide better feedback to students.
           </div>
         </div>
       </li>
@@ -86,15 +85,6 @@ giscus_comments: true
         <div class="row">
           <div class="col-sm-9">
             I have written 35+ in-use quiz and exam questions. I verify and edit, as needed, all assessment questions in the course. I wrote all of Quiz 7 (MIPS processor and control signals).
-          </div>
-          <div class="col-sm-3">
-          </div>
-        </div>
-      </li>
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            I refined and automated our question creation and review process. In particular, I developed a workflow in which we write questions in Markdown format on GitHub and convert (via <a href="https://github.com/jgm/pandoc">pandoc</a>) to HTML/PDF, allowing for version control and better collaboration.
           </div>
           <div class="col-sm-3">
           </div>
