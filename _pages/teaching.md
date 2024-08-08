@@ -29,7 +29,7 @@ giscus_comments: true
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            I roughly <strong>doubled</strong> the potential audience of COMP 541's final project simulator by porting, along with a classmate, the original version (C#, Windows-only) to Java (cross-platform). It is in-use in COMP 541 and maintained by me.
+            I roughly <strong>doubled</strong> the potential audience of COMP 541's final project simulator (speeds up build time from several minutes to seconds) by porting, along with a classmate, the original version (Windows-only) to Java (cross-platform). It is in-use in COMP 541 and maintained by me.
           </div>
           <div class="col-sm-3">
             <a href="/projects/mips-emulator">MIPS Emulator</a>&nbsp;(<a href="https://github.com/madiali/mips-emulator">GitHub</a>)
